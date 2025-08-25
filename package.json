@@ -5,6 +5,7 @@
   "description": "USF Fall 2025 Repo with Canvas → MongoDB sync and migrations",
   "scripts": {
     "migrate": "node db/index.js",
+    "seed:canvas": "node db/seed_canvas.js",
     "start": "node db/index.js"
   },
   "dependencies": {

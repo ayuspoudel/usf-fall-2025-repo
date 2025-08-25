@@ -1,0 +1,31 @@
+name: Seed Canvas Events
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "reports/canvas_events.json"
+  workflow_dispatch:
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Seed Canvas events into MongoDB
+        env:
+          MONGO_URI: ${{ secrets.MONGO_URI }}
+        run: npm run seed:canvas
