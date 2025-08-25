@@ -5,7 +5,7 @@ resource "aws_lambda_function" "db_watcher" {
   package_type  = "Image"
   image_uri     = var.lambda_image_uri
   timeout       = 900
-
+  
   environment {
     variables = {
       MONGO_URI             = var.mongo_uri
