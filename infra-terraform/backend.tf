@@ -1,13 +1,14 @@
 terraform {
   required_version = ">= 1.5.0"
   backend "s3" {
-    bucket = local.state_bucket
+    bucket = "clodstco-terraform-state"
     key    = "usf-fall-2025/lambda/terraform.tfstate"
-    region = local.aws_region
-    dynamodb_table = local.dynamodb_table
+    region = "us-east-1"
+    dynamodb_table = "terraform-locks"
   }
 }
 
 provider "aws" {
-  region = local.aws_region
+  region = "us-east-1"
 }
+
