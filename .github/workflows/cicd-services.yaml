@@ -107,17 +107,26 @@ jobs:
         id: plan
         working-directory: infra-terraform
         run: |
+          set +e
           terraform plan -var="lambda_image_uri=${{ env.IMAGE_URI }}" -out=tfplan
-          if [ -s tfplan ]; then
+          exitcode=$?
+          set -e
+
+          if [ $exitcode -eq 0 ]; then
+            echo "No changes."
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          elif [ $exitcode -eq 2 ]; then
+            echo "Changes detected."
             echo "has_changes=true" >> $GITHUB_OUTPUT
           else
-            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "Terraform plan failed."
+            exit $exitcode
           fi
 
   apply:
     runs-on: ubuntu-latest
     needs: plan
-    if: needs.plan.outputs.plan_changed == 'true'
+    if: needs.plan.outputs.has_changes == 'true'
     environment: prod
     steps:
       - uses: actions/checkout@v4
