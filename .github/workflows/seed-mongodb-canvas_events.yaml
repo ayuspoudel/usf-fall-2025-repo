@@ -27,4 +27,9 @@ jobs:
       - name: Seed Canvas Events
         env:
           MONGO_URI: ${{ secrets.MONGO_URI }}
-        run: node db/seed-canvas-events.js
+        run: npm run seed
+
+      - name: Verify Seed
+        env:
+          MONGO_URI: ${{ secrets.MONGO_URI }}
+        run: npm run verify

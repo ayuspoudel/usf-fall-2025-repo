@@ -6,6 +6,7 @@
   "scripts": {
     "migrate": "node db/index.js",
     "seed:canvas": "node db/seed_canvas.js",
+    "verify": "node db/verify-seed.js",
     "start": "node db/index.js"
   },
   "dependencies": {
