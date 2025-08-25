@@ -1,6 +1,6 @@
 // db/seed_canvas.js
 // Seed canvas_events collection from reports/canvas_events.json
-// Author: Ayush Poudel | Date: Aug 25, 2025
+// Author: Ayush Poudel | Date: Aug 25, 2025. 
 
 import { MongoClient } from "mongodb";
 import fs from "fs";
