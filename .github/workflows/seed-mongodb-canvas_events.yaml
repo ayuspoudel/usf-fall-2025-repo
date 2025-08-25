@@ -27,4 +27,4 @@ jobs:
       - name: Seed Canvas Events
         env:
           MONGO_URI: ${{ secrets.MONGO_URI }}
-        run: node scripts/seed-canvas-events.js
+        run: node db/seed-canvas-events.js
