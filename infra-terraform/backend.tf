@@ -7,7 +7,7 @@ terraform {
     dynamodb_table = "terraform-locks"
   }
 }
-
+  
 provider "aws" {
   region = "us-east-1"
 }
