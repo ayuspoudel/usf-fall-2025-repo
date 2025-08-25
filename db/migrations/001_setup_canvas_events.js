@@ -31,7 +31,7 @@ export default async function (db) {
     } 
   });
 
-  // Create indexes
+  // Create indexes.   
   await db.collection("canvas_events").createIndex({ uid: 1 }, { unique: true });
   await db.collection("canvas_events").createIndex({ due_date: 1 });
   await db.collection("canvas_events").createIndex({ course: 1 });
