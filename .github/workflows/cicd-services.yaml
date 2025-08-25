@@ -79,12 +79,9 @@ jobs:
       - name: Terraform Validate
         working-directory: infra-terraform
         run: terraform validate
-
   plan:
     runs-on: ubuntu-latest
     needs: validate
-    outputs:
-      plan_changed: ${{ steps.plan.outputs.has_changes }}
     steps:
       - uses: actions/checkout@v4
 
@@ -104,7 +101,6 @@ jobs:
         run: terraform init
 
       - name: Terraform Plan
-        id: plan
         working-directory: infra-terraform
         run: |
           terraform plan \
@@ -121,14 +117,7 @@ jobs:
             -var="gh_option_assignment=${{ secrets.GH_OPTION_ASSIGNMENT }}" \
             -var="gh_option_exam=${{ secrets.GH_OPTION_EXAM }}" \
             -var="gh_option_project=${{ secrets.GH_OPTION_PROJECT }}" \
-            -var="gh_option_quiz=${{ secrets.GH_OPTION_QUIZ }}" \
-            -out=tfplan
-
-      - name: Upload plan artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: tfplan
-          path: infra-terraform/tfplan
+            -var="gh_option_quiz=${{ secrets.GH_OPTION_QUIZ }}"
 
   apply:
     runs-on: ubuntu-latest
@@ -142,18 +131,30 @@ jobs:
         with:
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
           aws-region: us-east-1
-      
-      - name: Download plan artifact
-        uses: actions/download-artifact@v4
-        with:
-          name: tfplan
-          path: infra-terraform
+
       - name: Install Terraform
         uses: hashicorp/setup-terraform@v3
         with:
           terraform_version: 1.9.5
 
+      - name: Terraform Init
+        working-directory: infra-terraform
+        run: terraform init
+
       - name: Terraform Apply
         working-directory: infra-terraform
-        run: terraform apply -auto-approve tfplan
-            
+        run: |
+          terraform apply -auto-approve \
+            -var="lambda_image_uri=${{ env.IMAGE_URI }}" \
+            -var="mongo_uri=${{ secrets.MONGO_URI }}" \
+            -var="token_github=${{ secrets.TOKEN_GITHUB }}" \
+            -var="gh_project_id=${{ secrets.GH_PROJECT_ID }}" \
+            -var="gh_repo_owner=ayuspoudel" \
+            -var="gh_repo_name=usf-fall-2025-repo" \
+            -var="gh_field_course=${{ secrets.GH_FIELD_COURSE }}" \
+            -var="gh_field_due_date=${{ secrets.GH_FIELD_DUE_DATE }}" \
+            -var="gh_field_type=${{ secrets.GH_FIELD_TYPE }}" \
+            -var="gh_option_assignment=${{ secrets.GH_OPTION_ASSIGNMENT }}" \
+            -var="gh_option_exam=${{ secrets.GH_OPTION_EXAM }}" \
+            -var="gh_option_project=${{ secrets.GH_OPTION_PROJECT }}" \
+            -var="gh_option_quiz=${{ secrets.GH_OPTION_QUIZ }}"
