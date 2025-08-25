@@ -50,8 +50,14 @@ jobs:
 
           echo "image_uri=$IMAGE_REPO:$IMAGE_TAG" >> $GITHUB_OUTPUT
 
-      - name: Save image_uri for Terraform
-        run: echo "IMAGE_URI=${{ steps.build.outputs.image_uri }}" >> $GITHUB_ENV
+
+      - name: Save IMAGE_URI to file
+        run: echo "${{ steps.build.outputs.image_uri }}" > image_uri.txt
+        
+      - uses: actions/upload-artifact@v4
+        with:
+          name: image_uri
+          path: image_uri.txt
 
 
   validate:
@@ -140,6 +146,11 @@ jobs:
       - name: Terraform Init
         working-directory: infra-terraform
         run: terraform init
+      
+      - uses: actions/download-artifact@v4
+        with:
+          name: image_uri
+      - run: echo "IMAGE_URI=$(cat image_uri.txt)" >> $GITHUB_ENV
 
       - name: Terraform Apply
         working-directory: infra-terraform
