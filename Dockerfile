@@ -1,25 +1,23 @@
-# Builder Stage
-FROM node:20-alpine AS builder
+# Stage 1: build
+FROM node:20-slim AS builder
 
 WORKDIR /app
 
-# copy service manifest
-COPY package-service.json ./
+# copy service manifest as package.json
+COPY package-services.json ./package.json
 
 # install only production deps
-RUN npm install --omit=dev --package-json ./package-service.json
+RUN npm install --omit=dev
 
 # copy service code
 COPY services/ ./services/
 
-# Runtime Stage (Lambda base) 
+# Stage 2: final image for AWS Lambda
 FROM public.ecr.aws/lambda/nodejs:20
 
 WORKDIR /var/task
 
-# copy deps from builder
 COPY --from=builder /app/node_modules ./node_modules
 COPY --from=builder /app/services ./services
 
-# set Lambda handler
 CMD [ "services/db_watcher.handler" ]

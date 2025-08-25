@@ -1,0 +1,120 @@
+name: Build and Deploy Lambda
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - "services/**"
+      - "Dockerfile"
+      - "package-services.json"
+      - "infra-terraform/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write  # OIDC → AWS
+  packages: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: us-east-1
+
+      - name: Log in to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Build and push Docker image
+        id: build
+        run: |
+          IMAGE_REPO=${{ steps.login-ecr.outputs.registry }}/db-watcher
+          IMAGE_TAG=${{ github.sha }}
+
+          docker build -t $IMAGE_REPO:$IMAGE_TAG -f Dockerfile .
+          docker push $IMAGE_REPO:$IMAGE_TAG
+
+          echo "image_uri=$IMAGE_REPO:$IMAGE_TAG" >> $GITHUB_OUTPUT
+
+      - name: Save image_uri for Terraform
+        run: echo "IMAGE_URI=${{ steps.build.outputs.image_uri }}" >> $GITHUB_ENV
+
+  validate:
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.9.5
+
+      - name: Terraform Validate
+        working-directory: infra-terraform
+        run: terraform validate
+
+  plan:
+    runs-on: ubuntu-latest
+    needs: validate
+    outputs:
+      plan_changed: ${{ steps.plan.outputs.has_changes }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: us-east-1
+
+      - name: Install Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.9.5
+
+      - name: Terraform Init
+        working-directory: infra-terraform
+        run: terraform init
+
+      - name: Terraform Plan
+        id: plan
+        working-directory: infra-terraform
+        run: |
+          terraform plan -var="lambda_image_uri=${{ env.IMAGE_URI }}" -out=tfplan
+          if [ -s tfplan ]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+  apply:
+    runs-on: ubuntu-latest
+    needs: plan
+    if: needs.plan.outputs.plan_changed == 'true'
+    environment: prod
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: us-east-1
+
+      - name: Install Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.9.5
+
+      - name: Terraform Apply
+        working-directory: infra-terraform
+        run: terraform apply -var="lambda_image_uri=${{ env.IMAGE_URI }}" -auto-approve tfplan
