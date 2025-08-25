@@ -108,29 +108,32 @@ jobs:
         working-directory: infra-terraform
         run: |
           set +e
-          # Fail fast on lock issues, show plan output
           terraform plan \
             -lock-timeout=30s \
             -var="lambda_image_uri=${{ env.IMAGE_URI }}" \
+            -var="mongo_uri=${{ secrets.MONGO_URI }}" \
+            -var="token_github=${{ secrets.TOKEN_GITHUB }}" \
+            -var="gh_project_id=${{ secrets.GH_PROJECT_ID }}" \
+            -var="gh_repo_owner=ayuspoudel" \
+            -var="gh_repo_name=usf-fall-2025-repo" \
+            -var="gh_field_course=${{ secrets.GH_FIELD_COURSE }}" \
+            -var="gh_field_due_date=${{ secrets.GH_FIELD_DUE_DATE }}" \
+            -var="gh_field_type=${{ secrets.GH_FIELD_TYPE }}" \
+            -var="gh_option_assignment=${{ secrets.GH_OPTION_ASSIGNMENT }}" \
+            -var="gh_option_exam=${{ secrets.GH_OPTION_EXAM }}" \
+            -var="gh_option_project=${{ secrets.GH_OPTION_PROJECT }}" \
+            -var="gh_option_quiz=${{ secrets.GH_OPTION_QUIZ }}" \
             -out=tfplan
-
           exitcode=$?
           set -e
-
-          # Show the human-readable plan for debugging
           terraform show -no-color tfplan || true
-
           if [ $exitcode -eq 0 ]; then
-            echo "No changes."
             echo "has_changes=false" >> $GITHUB_OUTPUT
           elif [ $exitcode -eq 2 ]; then
-            echo "Changes detected."
             echo "has_changes=true" >> $GITHUB_OUTPUT
           else
-            echo "Terraform plan failed."
             exit $exitcode
           fi
-
 
 
   apply:
@@ -154,4 +157,19 @@ jobs:
 
       - name: Terraform Apply
         working-directory: infra-terraform
-        run: terraform apply -var="lambda_image_uri=${{ env.IMAGE_URI }}" -auto-approve tfplan
+        run: terraform apply \
+            -var="lambda_image_uri=${{ env.IMAGE_URI }}" \
+            -var="mongo_uri=${{ secrets.MONGO_URI }}" \
+            -var="token_github=${{ secrets.TOKEN_GITHUB }}" \
+            -var="gh_project_id=${{ secrets.GH_PROJECT_ID }}" \
+            -var="gh_repo_owner=ayuspoudel" \
+            -var="gh_repo_name=usf-fall-2025-repo" \
+            -var="gh_field_course=${{ secrets.GH_FIELD_COURSE }}" \
+            -var="gh_field_due_date=${{ secrets.GH_FIELD_DUE_DATE }}" \
+            -var="gh_field_type=${{ secrets.GH_FIELD_TYPE }}" \
+            -var="gh_option_assignment=${{ secrets.GH_OPTION_ASSIGNMENT }}" \
+            -var="gh_option_exam=${{ secrets.GH_OPTION_EXAM }}" \
+            -var="gh_option_project=${{ secrets.GH_OPTION_PROJECT }}" \
+            -var="gh_option_quiz=${{ secrets.GH_OPTION_QUIZ }}" \
+            -auto-approve tfplan
+            
