@@ -107,7 +107,6 @@ jobs:
         id: plan
         working-directory: infra-terraform
         run: |
-          set +e
           terraform plan \
             -lock-timeout=30s \
             -var="lambda_image_uri=${{ env.IMAGE_URI }}" \
@@ -124,22 +123,12 @@ jobs:
             -var="gh_option_project=${{ secrets.GH_OPTION_PROJECT }}" \
             -var="gh_option_quiz=${{ secrets.GH_OPTION_QUIZ }}" \
             -out=tfplan
-          exitcode=$?
-          set -e
-          terraform show -no-color tfplan || true
-          if [ $exitcode -eq 0 ]; then
-            echo "has_changes=false" >> $GITHUB_OUTPUT
-          elif [ $exitcode -eq 2 ]; then
-            echo "has_changes=true" >> $GITHUB_OUTPUT
-          else
-            exit $exitcode
-          fi
+
 
 
   apply:
     runs-on: ubuntu-latest
     needs: plan
-    if: needs.plan.outputs.has_changes == 'true'
     environment: prod
     steps:
       - uses: actions/checkout@v4
