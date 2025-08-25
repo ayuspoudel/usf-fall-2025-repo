@@ -28,7 +28,7 @@ export default async function (db) {
       console.log("canvas_events collection already exists, skipping createCollection");
     } else {
       throw err;
-    }
+    } 
   });
 
   // Create indexes
