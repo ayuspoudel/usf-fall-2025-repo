@@ -1,0 +1,1334 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:icalendar-ruby
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ayush Poudel Calendar (Canvas)
+X-WR-CALDESC:Calendar events for the user\, Ayush Poudel
+BEGIN:VEVENT
+DTSTAMP:20250816T125900Z
+UID:event-assignment-18436223
+DTSTART;VALUE=DATE;VALUE=DATE:20250825
+CLASS:PUBLIC
+DESCRIPTION:------------------\nSyllabus Agreement\n------------------\n\nT
+ his important activity satisfies the "First Day Attendance" policy for thi
+ s course. It will let me know that you are indeed enrolled and participati
+ ng in the course. If you do not submit within the first day of class\, you
+  risk being dropped from the course. Carefully review the syllabus.
+SEQUENCE:0
+SUMMARY:first Day Attendance Quiz [COP4600.003F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_2040558&month=08&year=2025#assignment_18436223
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><h2><span>Syllabus Agreement</span></h2>\n<p><span>This import
+ ant activity satisfies the "First Day Attendance" policy for this course. 
+ It will let me know that you are indeed enrolled and participating in the 
+ course. If you do not submit within the first day of class\, you risk bein
+ g dropped from the course. Carefully review the syllabus.</span></p><scrip
+ t src="https://instructure-uploads.s3.amazonaws.com/account_13000000008664
+ 3/attachments/163578714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190485
+DTSTART;VALUE=DATE;VALUE=DATE:20250827
+CLASS:PUBLIC
+DESCRIPTION:-------------\nModule 1 Quiz\n-------------\n\n Course Require
+ ments Checklist (First Day Attendance)\n----------------------------------
+ -------------------\n\nAs your first assignment in this course\, read the 
+ [course syllabus and schedule.] (https://usflearn.instructure.com/courses/
+ 1979796/assignments/syllabus) You will be allowed multiple attempts\, and 
+ your highest score will count toward your grade.\n\n   This quiz satisf
+ ies the "First Day Attendance" policy for this online course and is graded
+  10 points. To ensure your enrollment\, be sure to take the quiz by wedne
+ sday first week of classes\, 11:59 p.m. (ET).
+SEQUENCE:0
+SUMMARY:M1 Quiz: Course Requirements Checklist (First Day Attendance) [EVR2
+ 001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=08&year=2025#assignment_18190485
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 1 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h3
+  style="color: #2d3033\; margin-bottom: 20px\;"><i class="icon-quiz" style
+ ="background-color: #8a173c\; color: #ffffff\; border-color: #feddcd\; bor
+ der-width: 2px\;" aria-hidden="true"><span class="dp-icon-content" style="
+ display: none\;">&nbsp\;</span></i>Course Requirements Checklist (First Da
+ y Attendance)</h3>\n<p class="p1">As your first assignment in this course\
+ , read the <a title="Syllabus" href="https://usflearn.instructure.com/cour
+ ses/1979796/assignments/syllabus" data-course-type="navigation">course syl
+ labus and schedule.</a> You will be allowed multiple attempts\, and your h
+ ighest score will count toward your grade.</p>\n<div class="bs-alert bs-al
+ ert-primary" style="border-color: #feddcd\; border-width: 2px\; background
+ -color: #ffffff\; color: #333333\;"><i class="fas fa-exclamation-triangle"
+  aria-hidden="true"><span class="dp-icon-content" style="display: none\;">
+ &nbsp\;</span></i><span>&nbsp\;</span><em><span>&nbsp\;This quiz satisfies
+  the "First Day Attendance" policy for this online course and is graded&nb
+ sp\;<strong>10 points</strong>. To ensure your enrollment\, be sure to tak
+ e the quiz by wednesday first week of classes\, </span><strong>11:59 p.m. 
+ (ET).</strong></em></div>\n</div>\n</div><script src="https://instructure-
+ uploads.s3.amazonaws.com/account_130000000086643/attachments/163578714/dp_
+ app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250825T040000Z
+UID:event-assignment-18434505
+DTSTART;VALUE=DATE;VALUE=DATE:20250827
+CLASS:PUBLIC
+DESCRIPTION:Chapter 2 Quiz: No extension will be accepted.
+SEQUENCE:0
+SUMMARY:Chapter 2 Quiz [COP4600.003F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_2040558&month=08&year=2025#assignment_18434505
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><p>Chapter 2 Quiz: No extension will be accepted.</p><script s
+ rc="https://instructure-uploads.s3.amazonaws.com/account_130000000086643/a
+ ttachments/163578714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250821T195100Z
+UID:event-assignment-18595541
+DTSTART:20250829T160000Z
+DTEND:20250829T160000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Assignment 1: Career Readiness Assessment Pre-Experience [IDS3947.1
+ 00F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1992486&month=08&year=2025#assignment_18595541
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250822T165700Z
+UID:event-assignment-18595547
+DTSTART;VALUE=DATE;VALUE=DATE:20250829
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:IDS3947 Syllabus Quiz [IDS3947.100F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1992486&month=08&year=2025#assignment_18595547
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250821T195000Z
+UID:event-assignment-18595543
+DTSTART;VALUE=DATE;VALUE=DATE:20250829
+CLASS:PUBLIC
+DESCRIPTION:--------\n    Quiz\n--------\n\n  Media Release\n-----------
+ ----\n\nAs part of IDS3947\, some artifacts (photos\, videos\, etc) may be
+  used for promotional purposes outside of Canvas by the University of Sout
+ h Florida.\n\nBy completing the media release\, you are consenting to the 
+ university using your information for these purposes. Please read the coor
+ dinating statement in the following quiz questions and feel free to ask yo
+ ur instructor for further information if needed.
+SEQUENCE:0
+SUMMARY:Media Release [IDS3947.100F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1992486&month=08&year=2025#assignment_18595543
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="dp-wrapper" class="dp-wrapper dp-flat-sections"><head
+ er class="dp-header dp-flat-sections " style="background-color: #004529\; 
+ color: #ffffff\; border-color: #004529\;">\n<h2 class="dp-heading" style="
+ border-top-width: 0px\; background-color: #004529\; color: #ffffff\; borde
+ r-color: #004529\;">&nbsp\; &nbsp\; Quiz</h2>\n</header>\n<div class="dp-c
+ ontent-block kl_custom_block_0">\n<h3 class="dp-has-icon" style="color: #2
+ d3033\;"><i class="icon-quiz" style="background-color: #004529\; color: #f
+ fffff\; border-color: #9ccb3b\; border-width: 2px\;" aria-hidden="true"><s
+ pan class="dp-icon-content" style="display: none\;">&nbsp\;</span></i> Med
+ ia Release</h3>\n<p class="p1"><span style="color: #333333\;">As part of I
+ DS3947\, some artifacts (photos\, videos\, etc) may be used for <span styl
+ e="color: #333333\;">promotional purposes outside of Canvas by the Univers
+ ity of South Florida.</span></span></p>\n<p class="p1"><span style="color:
+  #333333\;"><span style="color: #333333\;">By completing the media release
+ \, you are consenting to the university using your information for these p
+ urposes. Please read the coordinating statement in the following quiz ques
+ tions and feel free to ask your instructor for further information if need
+ ed.</span></span></p>\n</div>\n</div><script src="https://instructure-uplo
+ ads.s3.amazonaws.com/account_130000000086643/attachments/163578714/dp_app.
+ js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250818T205300Z
+UID:event-assignment-18524671
+DTSTART;VALUE=DATE;VALUE=DATE:20250829
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Chapter 4 & 5 Quiz [COP4600.003F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_2040558&month=08&year=2025#assignment_18524671
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190477
+DTSTART;VALUE=DATE;VALUE=DATE:20250901
+CLASS:PUBLIC
+DESCRIPTION:-------------\nModule 1 Quiz\n-------------\n\n Science and th
+ e Environment\n----------------------------\n\nBefore taking this quiz\, p
+ repare by studying the materials on the [M1 Learning Activities] (https://
+ usflearn.instructure.com/courses/1979796/pages/m1-learning-activities) pag
+ e. \n\n  The quiz is composed of 25 multiple-choice and true-false ques
+ tions and is worth 50 points. The quiz is timed 60 minutes and you will ha
+ ve one attempt. Submit by 11.59 p.m. (ET) on the due date.
+SEQUENCE:0
+SUMMARY:M1 Quiz: Science and the Environment [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=09&year=2025#assignment_18190477
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 1 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h3
+  style="color: #2d3033\;"><i class="icon-quiz" style="background-color: #8
+ a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px\;" aria
+ -hidden="true"><span class="dp-icon-content" style="display: none\;">&nbsp
+ \;</span></i>Science and the Environment</h3>\n<p class="p1">Before taking
+  this quiz\, prepare by studying the materials on the <a title="M1 Learnin
+ g Activities" href="https://usflearn.instructure.com/courses/1979796/pages
+ /m1-learning-activities" data-course-type="wikiPages" data-published="fals
+ e" data-api-endpoint="https://usflearn.instructure.com/api/v1/courses/1979
+ 796/pages/m1-learning-activities" data-api-returntype="Page">M1 Learning A
+ ctivities</a> page.&nbsp\;</p>\n<div class="bs-alert bs-alert-primary" sty
+ le="border-color: #feddcd\; border-width: 2px\; background-color: #ffffff\
+ ; margin-top: 25px\;"><i class="icon-speed-grader icon-Solid" aria-hidden=
+ "true"><span class="dp-icon-content" style="display: none\;">&nbsp\;</span
+ ></i> <i><span style="color: #333333\;">The quiz is </span><span style="co
+ lor: #333333\;">composed</span><span style="color: #333333\;">&nbsp\;of 25
+  multiple-choice and true-false questions and is worth <strong>50 points</
+ strong>. The quiz is timed 60 minutes and you will have one attempt. Submi
+ t by 11.59 p.m. (ET) on the due date.</span></i></div>\n</div>\n</div><scr
+ ipt src="https://instructure-uploads.s3.amazonaws.com/account_130000000086
+ 643/attachments/163578714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250818T203400Z
+UID:event-assignment-18523143
+DTSTART:20250908T210000Z
+DTEND:20250908T210000Z
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:COBOL Interview Questions #1 [CEN4020.001F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1982786&month=09&year=2025#assignment_18523143
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250821T195200Z
+UID:event-assignment-18595551
+DTSTART;VALUE=DATE;VALUE=DATE:20250908
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Assignment 2: Internship Learning Plan  [IDS3947.100F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1992486&month=09&year=2025#assignment_18595551
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190483
+DTSTART;VALUE=DATE;VALUE=DATE:20250908
+CLASS:PUBLIC
+DESCRIPTION:-------------\nModule 2 Quiz\n-------------\n\n Economics\, Po
+ litics\, and Public Policy\n---------------------------------------\n\nBef
+ ore taking this quiz\, prepare by studying the materials on the [M2 Learni
+ ng Activities] (https://usflearn.instructure.com/courses/1979796/pages/m2-
+ learning-activities) page.\n\n  The quiz is composed of 25 multiple-choi
+ ce and true-false questions and is worth 50 points. The quiz is timed 60 m
+ inutes and you will have one attempt. Submit by 11.59 p.m. (ET) on the due
+  date.
+SEQUENCE:0
+SUMMARY:M2 Quiz: Economics\, Politics\, and Public Policy [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=09&year=2025#assignment_18190483
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 2 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h3
+  style="color: #2d3033\;"><i class="icon-quiz" style="background-color: #8
+ a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px\;" aria
+ -hidden="true"><span class="dp-icon-content" style="display: none\;">&nbsp
+ \;</span></i>Economics\, Politics\, and Public Policy</h3>\n<p class="p1">
+ Before taking this quiz\, prepare by studying the materials on the <a titl
+ e="M2 Learning Activities" href="https://usflearn.instructure.com/courses/
+ 1979796/pages/m2-learning-activities" data-course-type="wikiPages" data-pu
+ blished="false" data-api-endpoint="https://usflearn.instructure.com/api/v1
+ /courses/1979796/pages/m2-learning-activities" data-api-returntype="Page">
+ M2 Learning Activities</a> page.</p>\n<div class="bs-alert bs-alert-primar
+ y" style="border-color: #feddcd\; border-width: 2px\; background-color: #f
+ fffff\; color: #333333\;"><i class="icon-speed-grader icon-Solid" style="c
+ olor: #004085\;" aria-hidden="true"><span class="dp-icon-content" style="d
+ isplay: none\;">&nbsp\;</span></i><span style="color: #333333\;"> <i>The q
+ uiz is </i></span><span style="color: #333333\;">composed</span><span styl
+ e="color: #333333\;">&nbsp\;of 25 multiple-choice and true-false questions
+  and is worth <strong>50 points</strong>. The quiz is timed 60 minutes and
+  you will have one attempt. Submit by 11.59 p.m. (ET) on the due date.</sp
+ an></div>\n</div>\n</div><script src="https://instructure-uploads.s3.amazo
+ naws.com/account_130000000086643/attachments/163578714/dp_app.js"></script
+ >
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190489
+DTSTART;VALUE=DATE;VALUE=DATE:20250915
+CLASS:PUBLIC
+DESCRIPTION:-------------------\nModule 3 Discussion\n-------------------\n
+ \n Population and Communities\n---------------------------\n\nPrompt\n---
+ ---\n\nDescribe how a human action such as removing a top predator\, or ad
+ ding a species\, can have an impact on many species in an ecosystem.\n\nRe
+ ply\n-----\n\nReview one of your peer’s responses to the above question 
+ and identify and discuss a policy that can be deployed in preventing that 
+ human action of removing a top predator or adding a species to an ecosyste
+ m.\n\nDiscussion Guidelines\n---------------------\n\n* Discussions are co
+ llaborative learning experiences.\n\n* You will post one thread of at leas
+ t 300 words in response to a provided prompt by 11.59 p.m. (ET).\n\n* Then
+ \, post a reply of at least 150 words to a classmate's thread by 11.59 p.m
+ . (ET).\n\n* For each thread\, you must support your assertions with at le
+ ast 1 scholarly citation in the current APA format. Each reply must incorp
+ orate at least 1 scholarly citation in APA format. Acceptable sources incl
+ ude books\, journal articles\, .edu\, .org\, or .gov websites\, the course
+  textbook\, etc. A Wikipedia reference will not count towards your minimum
+  citation count.\n\n* For help on how to submit discussion posts\, see [H
+ ow Do I Reply to a Discussion as a Student? Links to an external site.] (
+ https://community.canvaslms.com/t5/Student-Guide/How-do-I-reply-to-a-discu
+ ssion-as-a-student/ta-p/334)\n\n* This discussion is worth 50 points and 
+ will be graded according to the Discussion Board Forum Rubric. For help on
+  how to access the rubric\, see [How Do I View the Rubric for My Graded D
+ iscussion? Links to an external site.] (https://community.canvaslms.com/t
+ 5/Student-Guide/How-do-I-view-the-rubric-for-my-graded-discussion/ta-p/319
+ )
+SEQUENCE:0
+SUMMARY:M3 Discussion: Population and Communities [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=09&year=2025#assignment_18190489
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="border-color: #2d3b45\; background-colo
+ r: #8a173c\; color: #ffffff\;">\n<h2 class="" style="background-color: #8a
+ 173c\; color: #ffffff\; border-color: #daebeb\; border-top-width: 0px\;">M
+ odule 3 Discussion</h2>\n</div>\n<div id="kl_activities2" class="">\n<h3 s
+ tyle="color: #2d3033\;"><i class="icon-discussion icon-Solid" style="backg
+ round-color: #8a173c\; color: #ffffff\; border-color: #feddcd\; border-wid
+ th: 2px\;" aria-hidden="true"><span class="dp-icon-content" style="display
+ : none\;">&nbsp\;</span></i>Population and Communities</h3>\n<h4 class="p1
+ "><span style="font-size: 12pt\;"><span style="color: #333333\;">Prompt</s
+ pan></span></h4>\n<p class="p1">Describe how a human action such as removi
+ ng a top predator\, or adding a species\, can have an impact on many speci
+ es in an ecosystem.</p>\n<h4 class="p1"><span style="font-size: 12pt\;"><s
+ pan style="color: #333333\;">Reply</span></span></h4>\n<p class="p1">Revie
+ w one of your peer’s responses to the above question and identify and di
+ scuss a policy that can be deployed in preventing that human action of rem
+ oving a top predator or adding a species to an ecosystem.</p>\n<h4 class="
+ p1"><span style="font-size: 12pt\;"><span style="color: #333333\;">Discuss
+ ion Guidelines</span></span></h4>\n<ul>\n<li class="p1">Discussions are co
+ llaborative learning experiences.</li>\n<li class="p1">You will post one t
+ hread of at least 300 words in response to a provided prompt by <strong>11
+ .59 p.m. (ET).</strong></li>\n<li class="p1">Then\, post a reply of at lea
+ st 150 words to a classmate's thread by <strong>11.59 p.m. (ET).</strong><
+ /li>\n<li class="p1">For each thread\, you must support your assertions wi
+ th at least 1 scholarly citation in the current APA format. Each reply mus
+ t incorporate at least 1 scholarly citation in APA format. Acceptable sour
+ ces include books\, journal articles\, .edu\, .org\, or .gov websites\, th
+ e course textbook\, etc. A Wikipedia reference will not count towards your
+  minimum citation count.</li>\n<li>For help on how to submit discussion po
+ sts\, see<span>&nbsp\;</span><a class="inline_disabled external" href="htt
+ ps://community.canvaslms.com/t5/Student-Guide/How-do-I-reply-to-a-discussi
+ on-as-a-student/ta-p/334" target="_blank"><span>How Do I Reply to a Discus
+ sion as a Student?&nbsp\;</span><span class="external_link_icon" role="pre
+ sentation"><span class="screenreader-only">Links to an external site.</spa
+ n></span></a></li>\n<li>This discussion is worth<span>&nbsp\;</span><stron
+ g>50 points </strong>and will be graded according to the Discussion Board 
+ Forum Rubric. For help on how to access the rubric\, see<span>&nbsp\;</spa
+ n><a class="instructure_file_link inline_disabled external" href="https://
+ community.canvaslms.com/t5/Student-Guide/How-do-I-view-the-rubric-for-my-g
+ raded-discussion/ta-p/319" target="_blank"><span>How Do I View the Rubric 
+ for My Graded Discussion?&nbsp\;</span><span class="external_link_icon" ro
+ le="presentation"><span class="screenreader-only">Links to an external sit
+ e.</span></span></a></li>\n</ul>\n</div>\n</div><script src="https://instr
+ ucture-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578
+ 714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190475
+DTSTART;VALUE=DATE;VALUE=DATE:20250915
+CLASS:PUBLIC
+DESCRIPTION:-------------\nModule 3 Quiz\n-------------\n\n Population and
+  Communities\n---------------------------\n\nBefore taking this quiz\, pre
+ pare by studying the materials on the [M3 Learning Activities] (https://us
+ flearn.instructure.com/courses/1979796/pages/m3-learning-activities) page.
+ \n\n  The quiz is composed of 25 multiple-choice and true-false question
+ s and is worth 50 points. The quiz is timed 60 minutes and you will have o
+ ne attempt. Submit by 11.59 p.m. (ET) on the due date.
+SEQUENCE:0
+SUMMARY:M3 Quiz: Population and Communities [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=09&year=2025#assignment_18190475
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 3 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h3
+  style="color: #2d3033\;"><i class="icon-quiz" style="background-color: #8
+ a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px\;" aria
+ -hidden="true"><span class="dp-icon-content" style="display: none\;">&nbsp
+ \;</span></i>Population and Communities</h3>\n<p class="p1">Before taking 
+ this quiz\, prepare by studying the materials on the <a title="M3 Learning
+  Activities" href="https://usflearn.instructure.com/courses/1979796/pages/
+ m3-learning-activities" data-course-type="wikiPages" data-published="false
+ " data-api-endpoint="https://usflearn.instructure.com/api/v1/courses/19797
+ 96/pages/m3-learning-activities" data-api-returntype="Page">M3 Learning Ac
+ tivities</a> page.</p>\n<div class="bs-alert bs-alert-primary" style="bord
+ er-color: #feddcd\; border-width: 2px\; background-color: #ffffff\; color:
+  #333333\;"><i class="icon-speed-grader icon-Solid" style="color: #004085\
+ ;" aria-hidden="true"><span class="dp-icon-content" style="display: none\;
+ ">&nbsp\;</span></i> <i><span style="color: #333333\;">The quiz is </span>
+ <span style="color: #333333\;">composed</span><span style="color: #333333\
+ ;">&nbsp\;of 25 multiple-choice and true-false questions and is worth <str
+ ong>50 points</strong>. The quiz is timed 60 minutes and you will have one
+  attempt. Submit by 11.59 p.m. (ET) on the due date.</span></i></div>\n</d
+ iv>\n</div><script src="https://instructure-uploads.s3.amazonaws.com/accou
+ nt_130000000086643/attachments/163578714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190469
+DTSTART;VALUE=DATE;VALUE=DATE:20250922
+CLASS:PUBLIC
+DESCRIPTION:-------------\nModule 4 Quiz\n-------------\n\n The Human Popu
+ lation\n---------------------\n\nBefore taking this quiz\, prepare by stud
+ ying the materials on the [M4 Learning Activities] (https://usflearn.instr
+ ucture.com/courses/1979796/pages/m4-learning-activities) page. \n\n  The
+  quiz is composed of 25 multiple-choice and true-false questions and is w
+ orth 50 points. The quiz is timed 60 minutes and you will have one attempt
+ . Submit by 11.59 p.m. (ET) on the due date.
+SEQUENCE:0
+SUMMARY:M4 Quiz: The Human Population [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=09&year=2025#assignment_18190469
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 4 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h3
+  style="color: #2d3033\;"><i class="icon-quiz" style="background-color: #8
+ a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px\;" aria
+ -hidden="true"><span class="dp-icon-content" style="display: none\;">&nbsp
+ \;</span></i>The Human Population</h3>\n<p class="p1">Before taking this q
+ uiz\, prepare by studying the materials on the <a title="M4 Learning Activ
+ ities" href="https://usflearn.instructure.com/courses/1979796/pages/m4-lea
+ rning-activities" data-course-type="wikiPages" data-published="false" data
+ -api-endpoint="https://usflearn.instructure.com/api/v1/courses/1979796/pag
+ es/m4-learning-activities" data-api-returntype="Page">M4 Learning Activiti
+ es</a> page.&nbsp\;</p>\n<div class="bs-alert bs-alert-primary" style="bor
+ der-color: #feddcd\; border-width: 2px\; background-color: #ffffff\; color
+ : #333333\;"><i class="icon-speed-grader icon-Solid" style="color: #004085
+ \;" aria-hidden="true"><span class="dp-icon-content" style="display: none\
+ ;">&nbsp\;</span></i> <i><span style="color: #333333\;">The quiz is </span
+ ><span style="color: #333333\;">composed</span><span style="color: #333333
+ \;">&nbsp\;of 25 multiple-choice and true-false questions and is worth <st
+ rong>50 points</strong>. The quiz is timed 60 minutes and you will have on
+ e attempt. Submit by 11.59 p.m. (ET) on the due date.</span></i></div>\n</
+ div>\n</div><script src="https://instructure-uploads.s3.amazonaws.com/acco
+ unt_130000000086643/attachments/163578714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190493
+DTSTART;VALUE=DATE;VALUE=DATE:20250929
+CLASS:PUBLIC
+DESCRIPTION:-------------------------------------\nModule 5 Critical Thinki
+ ng Assignment\n-------------------------------------\n\n Population Growt
+ h and Natural Resource Degradation\n--------------------------------------
+ -------------\n\nCritical Thinking Assignments (CTAs) are short essay assi
+ gnments designed to build on your knowledge of the text. You will be expec
+ ted to thoughtfully answer the questions presented using class readings an
+ d other resources in Pearson Mastering to support your answers. Read and r
+ espond to the essay question below. Do not forget to review the accompanyi
+ ng instructions.\n\nEssay Question\n--------------\n\nSuppose you are the 
+ head of an island nation with a poor\, growing population and the natural 
+ resources of the island are being degraded. What kinds of policies would y
+ ou initiate\, and what help would you ask for to try to provide a better\,
+  sustainable future for your nation’s people?\n\nCTA Instructions\n-----
+ -----------\n\n* Length: The CTA should be between 500 to 600 words exclud
+ ing references.\n\n* Format: Should be written in the APA format.\n\n* Ref
+ erences: You should have at least three peer-reviewed journal articles or 
+ scholarly books. Sources may include both general background sources and s
+ pecialized sources. All websites utilized are cited with access dates and 
+ should come from authoritative sites with reliable and verifiable URLs.\n\
+ n* Writing quality: The arguments should be well-grounded/written and clea
+ rly articulated using Standard English. Correct grammar\, punctuation\, an
+ d spelling. No colloquial English.\n\n* Note: Your assignment will be chec
+ ked for originality via the [Turnitin plagiarism tool.] (https://usflearn.
+ instructure.com/courses/1979796/pages/getting-started-with-technology)\n\n
+ Rubric and Submission Guidelines\n--------------------------------\n\n* Th
+ is assignment is worth 50 points and will be graded according to the Cri
+ tical Thinking Assignment Rubric.\n\n* Submit by 11.59 p.m. (ET) on the du
+ e date.\n\n* Upload your assignment as a Microsoft Word document or PDF. F
+ or additional help\, see [How Do I Upload a File as an Assignment Submiss
+ ion in Canvas] (https://community.canvaslms.com/t5/Student-Guide/How-do-I-
+ upload-a-file-as-an-assignment-submission-in-Canvas/ta-p/274).[ Links to 
+ an external site.] (https://community.canvaslms.com/t5/Student-Guide/How-d
+ o-I-upload-a-file-as-an-assignment-submission-in-Canvas/ta-p/274)
+SEQUENCE:0
+SUMMARY:M5 Critical Thinking Assignment: Population Growth and Natural Reso
+ urce Degradation [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=09&year=2025#assignment_18190493
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\;">\n<h2 class="" style="border-top-width: 0px\; background-color: #8a
+ 173c\; color: #ffffff\; border-color: #8a173c\;">Module 5 Critical Thinkin
+ g Assignment</h2>\n</div>\n<div id="kl_custom_block_1" class="">\n<h3 styl
+ e="color: #2d3033\; margin-bottom: 20px\;">\n<i class="icon-assignment" st
+ yle="background-color: #8a173c\; color: #ffffff\; border-color: #feddcd\; 
+ border-width: 2px\;" aria-hidden="true"><span class="dp-icon-content" styl
+ e="display: none\;">&nbsp\;</span></i>Population Growth and Natural Resour
+ ce Degradation</h3>\n<p class="p1">Critical Thinking Assignments (CTAs) ar
+ e short essay assignments designed to build on your knowledge of the text.
+  You will be expected to thoughtfully answer the questions presented using
+  class readings and other resources in Pearson Mastering to support your a
+ nswers. Read and respond to the essay question below. Do not forget to rev
+ iew the accompanying instructions.</p>\n<h4 class="p1"><span class="s1" st
+ yle="color: #333333\; font-size: 12pt\;">Essay Question</span></h4>\n<p cl
+ ass="p1"><strong>Suppose you are the head of an island nation with a poor\
+ , growing population and the natural resources of the island are being deg
+ raded. What kinds of policies would you initiate\, and what help would you
+  ask for to try to provide a better\, sustainable future for your nation
+ ’s people?</strong></p>\n<h4 class="p1"><span class="s1" style="color: #
+ 333333\; font-size: 12pt\;">CTA Instructions</span></h4>\n<ul>\n<li class=
+ "p1">Length: The CTA should be between 500 to 600 words excluding referenc
+ es.</li>\n<li class="p1">Format: Should be written in the APA format.</li>
+ \n<li class="p1">References: You should have at least three peer-reviewed 
+ journal articles or scholarly books. Sources may include both general back
+ ground sources and specialized sources. All websites utilized are cited wi
+ th access dates and should come from authoritative sites with reliable and
+  verifiable URLs.</li>\n<li class="p1">Writing quality: The arguments shou
+ ld be well-grounded/written and clearly articulated using Standard English
+ . Correct grammar\, punctuation\, and spelling. No colloquial English.</li
+ >\n<li class="p1"><strong>Note: Your assignment will be checked for origin
+ ality via the <a title="Getting Started with Technology" href="https://usf
+ learn.instructure.com/courses/1979796/pages/getting-started-with-technolog
+ y" data-course-type="wikiPages" data-published="true" data-api-endpoint="h
+ ttps://usflearn.instructure.com/api/v1/courses/1979796/pages/getting-start
+ ed-with-technology" data-api-returntype="Page">Turnitin plagiarism tool.</
+ a></strong></li>\n</ul>\n<h4><span style="font-size: 12pt\;">Rubric and Su
+ bmission Guidelines</span></h4>\n<ul>\n<li>This assignment is worth<span>&
+ nbsp\;</span><strong>50 points</strong><span>&nbsp\;</span>and will be gra
+ ded according to the Critical Thinking Assignment Rubric.</li>\n<li>Submit
+  by 11.59 p.m. (ET) on the due date.</li>\n<li>Upload your assignment as a
+  Microsoft Word document or PDF. For additional help\, see<span>&nbsp\;</s
+ pan><a class="inline_disabled external" href="https://community.canvaslms.
+ com/t5/Student-Guide/How-do-I-upload-a-file-as-an-assignment-submission-in
+ -Canvas/ta-p/274" target="_blank"><span>How Do I Upload a File as an Assig
+ nment Submission in Canvas</span></a>.<a class="inline_disabled external" 
+ href="https://community.canvaslms.com/t5/Student-Guide/How-do-I-upload-a-f
+ ile-as-an-assignment-submission-in-Canvas/ta-p/274" target="_blank"><span 
+ class="external_link_icon" role="presentation"><span class="screenreader-o
+ nly" style="display: inline !important\;">&nbsp\;Links to an external site
+ .</span></span></a>\n</li>\n</ul>\n</div>\n</div><script src="https://inst
+ ructure-uploads.s3.amazonaws.com/account_130000000086643/attachments/16357
+ 8714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190473
+DTSTART;VALUE=DATE;VALUE=DATE:20250929
+CLASS:PUBLIC
+DESCRIPTION:-------------\nModule 5 Quiz\n-------------\n\n Population and
+  Development\n---------------------------\n\nBefore taking this quiz\, pre
+ pare by studying the materials on the [M5 Learning Activities ] (https://u
+ sflearn.instructure.com/courses/1979796/pages/m5-learning-activities)page.
+  \n\n  The quiz is composed of 25 multiple-choice and true-false questi
+ ons and is worth 50 points. The quiz is timed 60 minutes and you will have
+  one attempt. Submit by 11.59 p.m. (ET) on the due date.
+SEQUENCE:0
+SUMMARY:M5 Quiz: Population and Development [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=09&year=2025#assignment_18190473
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 5 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h3
+  style="color: #2d3033\;"><i class="icon-quiz" style="background-color: #8
+ a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px\;" aria
+ -hidden="true"><span class="dp-icon-content" style="display: none\;">&nbsp
+ \;</span></i>Population and Development</h3>\n<p class="p1">Before taking 
+ this quiz\, prepare by studying the materials on the <a title="M5 Learning
+  Activities " href="https://usflearn.instructure.com/courses/1979796/pages
+ /m5-learning-activities" data-course-type="wikiPages" data-published="fals
+ e" data-api-endpoint="https://usflearn.instructure.com/api/v1/courses/1979
+ 796/pages/m5-learning-activities" data-api-returntype="Page">M5 Learning A
+ ctivities </a>page.&nbsp\;</p>\n<div class="bs-alert bs-alert-primary" sty
+ le="border-color: #feddcd\; border-width: 2px\; background-color: #ffffff\
+ ; color: #333333\;"><i class="icon-speed-grader icon-Solid" style="color: 
+ #004085\;" aria-hidden="true"><span class="dp-icon-content" style="display
+ : none\;">&nbsp\;</span></i> <i><span style="color: #333333\;">The quiz is
+  </span><span style="color: #333333\;">composed</span><span style="color: 
+ #333333\;">&nbsp\;of 25 multiple-choice and true-false questions and is wo
+ rth <strong>50 points</strong>. The quiz is timed 60 minutes and you will 
+ have one attempt. Submit by 11.59 p.m. (ET) on the due date.</span></i></d
+ iv>\n</div>\n</div><script src="https://instructure-uploads.s3.amazonaws.c
+ om/account_130000000086643/attachments/163578714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190461
+DTSTART;VALUE=DATE;VALUE=DATE:20251006
+CLASS:PUBLIC
+DESCRIPTION:-------------\nModule 6 Quiz\n-------------\n\n The Value\, Us
+ e\, and Restoration of Ecosystems\n---------------------------------------
+ -------\n\nBefore taking this quiz\, prepare by studying the materials on 
+ the [M6 Learning Activities] (https://usflearn.instructure.com/courses/197
+ 9796/pages/m6-learning-activities) page. \n\n  The quiz is composed of 
+ 25 multiple-choice and true-false questions and is worth 50 points. The qu
+ iz is timed 60 minutes and you will have one attempt. Submit by 11.59 p.m.
+  (ET) on the due date.
+SEQUENCE:0
+SUMMARY:M6 Quiz: The Value\, Use\, and Restoration of Ecosystems [EVR2001.0
+ 04F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=10&year=2025#assignment_18190461
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 6 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h3
+  style="color: #2d3033\;"><i class="icon-quiz" style="background-color: #8
+ a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px\;" aria
+ -hidden="true"><span class="dp-icon-content" style="display: none\;">&nbsp
+ \;</span></i>The Value\, Use\, and Restoration of Ecosystems</h3>\n<p clas
+ s="p1">Before taking this quiz\, prepare by studying the materials on the 
+ <a title="M6 Learning Activities  " href="https://usflearn.instructure.com
+ /courses/1979796/pages/m6-learning-activities" data-course-type="wikiPages
+ " data-published="false" data-api-endpoint="https://usflearn.instructure.c
+ om/api/v1/courses/1979796/pages/m6-learning-activities" data-api-returntyp
+ e="Page">M6 Learning Activities</a> page.&nbsp\;</p>\n<div class="bs-alert
+  bs-alert-primary" style="border-color: #feddcd\; border-width: 2px\; back
+ ground-color: #ffffff\; color: #333333\;"><i class="icon-speed-grader icon
+ -Solid" style="color: #004085\;" aria-hidden="true"><span class="dp-icon-c
+ ontent" style="display: none\;">&nbsp\;</span></i> <i><span style="color: 
+ #333333\;">The quiz is </span><span style="color: #333333\;">composed</spa
+ n><span style="color: #333333\;">&nbsp\;of 25 multiple-choice and true-fal
+ se questions and is worth <strong>50 points</strong>. The quiz is timed 60
+  minutes and you will have one attempt. Submit by 11.59 p.m. (ET) on the d
+ ue date.</span></i></div>\n</div>\n</div><script src="https://instructure-
+ uploads.s3.amazonaws.com/account_130000000086643/attachments/163578714/dp_
+ app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190455
+DTSTART;VALUE=DATE;VALUE=DATE:20251013
+CLASS:PUBLIC
+DESCRIPTION:-------------\nModule 7 Quiz\n-------------\n\n Hydrologic Cyc
+ le and Human Use\n-------------------------------\n\nBefore taking this qu
+ iz\, prepare by studying the materials on the [M7 Learning Activities] (ht
+ tps://usflearn.instructure.com/courses/1979796/pages/m7-learning-activitie
+ s) page.\n\n  The quiz is composed of 25 multiple-choice and true-false 
+ questions and is worth 50 points. The quiz is timed 60 minutes and you wil
+ l have one attempt. Submit by 11.59 p.m. (ET) on the due date.
+SEQUENCE:0
+SUMMARY:M7 Quiz: Hydrologic Cycle and Human Use [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=10&year=2025#assignment_18190455
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 7 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h3
+  style="color: #2d3033\;"><i class="icon-quiz" style="background-color: #8
+ a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px\;" aria
+ -hidden="true"><span class="dp-icon-content" style="display: none\;">&nbsp
+ \;</span></i>Hydrologic Cycle and Human Use</h3>\n<p class="p1">Before tak
+ ing this quiz\, prepare by studying the materials on the <a title="M7 Lear
+ ning Activities " href="https://usflearn.instructure.com/courses/1979796/p
+ ages/m7-learning-activities" data-course-type="wikiPages" data-published="
+ false" data-api-endpoint="https://usflearn.instructure.com/api/v1/courses/
+ 1979796/pages/m7-learning-activities" data-api-returntype="Page">M7 Learni
+ ng Activities</a> page.</p>\n<div class="bs-alert bs-alert-primary" style=
+ "border-color: #feddcd\; border-width: 2px\; background-color: #ffffff\; c
+ olor: #333333\;"><i class="icon-speed-grader icon-Solid" style="color: #00
+ 4085\;" aria-hidden="true"><span class="dp-icon-content" style="display: n
+ one\;">&nbsp\;</span></i> <i><span style="color: #333333\;">The quiz is </
+ span><span style="color: #333333\;">composed</span><span style="color: #33
+ 3333\;">&nbsp\;of 25 multiple-choice and true-false questions and is worth
+  <strong>50 points</strong>. The quiz is timed 60 minutes and you will hav
+ e one attempt. Submit by 11.59 p.m. (ET) on the due date.</span></i></div>
+ \n</div>\n</div><script src="https://instructure-uploads.s3.amazonaws.com/
+ account_130000000086643/attachments/163578714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190555
+DTSTART;VALUE=DATE;VALUE=DATE:20251015
+CLASS:PUBLIC
+DESCRIPTION:-------------------------------------\nModule 7 Critical Thinki
+ ng Assignment\n-------------------------------------\n\n My Everyday Acti
+ vity and Water Pollution\n-----------------------------------------\n\nCri
+ tical Thinking Assignments (CTAs) are short essay assignments designed to 
+ build on your knowledge of the text. You will be expected to thoughtfully 
+ answer the questions presented using class readings and other resources in
+  Pearson Mastering to support your answers. Read and respond to the essay 
+ question below. Do not forget to review the accompanying instructions.\n\n
+ Essay Question\n--------------\n\nDescribe how many of your everyday activ
+ ities\, including your demands for food and other materials\, add pollutio
+ n to the water cycle or alter it in other ways. How can you be more stewar
+ dly with your water consumption?\n\nCTA Instructions\n----------------\n\n
+ * Length: The CTA should be between 500 to 600 words\, excluding reference
+ s.\n\n* Format: Should be written in the APA format.\n\n* References: You 
+ should have at least three peer-reviewed journal articles or scholarly boo
+ ks. Sources may include both general background sources and specialized so
+ urces. All websites utilized are cited with access dates and should come f
+ rom authoritative sites with reliable and verifiable URLs.\n\n* Writing qu
+ ality: The arguments should be well-grounded/written and clearly articulat
+ ed using Standard English. Correct grammar\, punctuation\, and spelling. N
+ o colloquial English.\n\n* Note: Your assignment will be checked for origi
+ nality via the [Turnitin plagiarism tool.] (https://usflearn.instructure.c
+ om/courses/1979796/pages/gf9f999249e1d830efb3bd04e284abe9f)\n\nRubric and 
+ Submission Guidelines\n--------------------------------\n\n* This assignme
+ nt is worth 50 points and will be graded according to the Critical Think
+ ing Assignment Rubric.\n\n* Submit by 11.59 p.m. (ET) on the due date.\n\n
+ * Upload your assignment as a Microsoft Word document or PDF. For addition
+ al help\, see [How Do I Upload a File as an Assignment Submission in Canv
+ as?Links to an external site.] (https://community.canvaslms.com/t5/Student
+ -Guide/How-do-I-upload-a-file-as-an-assignment-submission-in-Canvas/ta-p/2
+ 74)
+SEQUENCE:0
+SUMMARY:M7 Critical Thinking Assignment: My Everyday Activities and Water P
+ ollution [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=10&year=2025#assignment_18190555
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\;">\n<h2 class="" style="border-top-width: 0px\; background-color: #8a
+ 173c\; color: #ffffff\; border-color: #8a173c\;">Module 7 Critical Thinkin
+ g Assignment</h2>\n</div>\n<div id="kl_custom_block_1" class="">\n<h3 styl
+ e="color: #2d3033\; margin-bottom: 20px\;">\n<i class="icon-assignment" st
+ yle="background-color: #8a173c\; color: #ffffff\; border-color: #feddcd\; 
+ border-width: 2px\;" aria-hidden="true"><span class="dp-icon-content" styl
+ e="display: none\;">&nbsp\;</span></i>My Everyday Activity and Water Pollu
+ tion</h3>\n<p class="p1">Critical Thinking Assignments (CTAs) are short es
+ say assignments designed to build on your knowledge of the text. You will 
+ be expected to thoughtfully answer the questions presented using class rea
+ dings and other resources in Pearson Mastering to support your answers. Re
+ ad and respond to the essay question below. Do not forget to review the ac
+ companying instructions.</p>\n<h4 class="p1"><span class="s1" style="color
+ : #333333\; font-size: 12pt\;">Essay Question</span></h4>\n<p class="p1"><
+ strong>Describe how many of your everyday activities\, including your dema
+ nds for food and other materials\, add pollution to the water cycle or alt
+ er it in other ways. How can you be more stewardly with your water consump
+ tion?</strong></p>\n<h4 class="p1"><span class="s1" style="color: #333333\
+ ; font-size: 12pt\;">CTA Instructions</span></h4>\n<ul>\n<li class="p1">Le
+ ngth: The CTA should be between 500 to 600 words\, excluding references.</
+ li>\n<li class="p1">Format: Should be written in the APA format.</li>\n<li
+  class="p1">References: You should have at least three peer-reviewed journ
+ al articles or scholarly books. Sources may include both general backgroun
+ d sources and specialized sources. All websites utilized are cited with ac
+ cess dates and should come from authoritative sites with reliable and veri
+ fiable URLs.</li>\n<li class="p1">Writing quality: The arguments should be
+  well-grounded/written and clearly articulated using Standard English. Cor
+ rect grammar\, punctuation\, and spelling. No colloquial English.</li>\n<l
+ i class="p1"><strong>Note: Your assignment will be checked for originality
+  via the <a title="Getting Started with Technology" href="https://usflearn
+ .instructure.com/courses/1979796/pages/gf9f999249e1d830efb3bd04e284abe9f" 
+ data-course-type="wikiPages" data-published="true" data-api-endpoint="http
+ s://usflearn.instructure.com/api/v1/courses/1979796/pages/gf9f999249e1d830
+ efb3bd04e284abe9f" data-api-returntype="Page">Turnitin plagiarism tool.</a
+ ></strong></li>\n</ul>\n<h4><span style="font-size: 12pt\;">Rubric and Sub
+ mission Guidelines</span></h4>\n<ul>\n<li>This assignment is worth<span>&n
+ bsp\;</span><strong>50 points</strong><span>&nbsp\;</span>and will be grad
+ ed according to the Critical Thinking Assignment Rubric.</li>\n<li>Submit 
+ by 11.59 p.m. (ET) on the due date.</li>\n<li>Upload your assignment as a 
+ Microsoft Word document or PDF. For additional help\, see<span>&nbsp\;</sp
+ an><a class="inline_disabled external" href="https://community.canvaslms.c
+ om/t5/Student-Guide/How-do-I-upload-a-file-as-an-assignment-submission-in-
+ Canvas/ta-p/274" target="_blank"><span>How Do I Upload a File as an Assign
+ ment Submission in Canvas?</span><span class="external_link_icon" role="pr
+ esentation"><span class="screenreader-only">Links to an external site.</sp
+ an></span></a>\n</li>\n</ul>\n</div>\n</div><script src="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578714/
+ dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250821T195300Z
+UID:event-assignment-18595537
+DTSTART;VALUE=DATE;VALUE=DATE:20251017
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Assignment 3: Midway Check-In [IDS3947.100F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1992486&month=10&year=2025#assignment_18595537
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190481
+DTSTART;VALUE=DATE;VALUE=DATE:20251020
+CLASS:PUBLIC
+DESCRIPTION:-------------\nModule 8 Quiz\n-------------\n\n Environmental 
+ Hazards and Human Health\n---------------------------------------\n\nBefor
+ e taking this quiz\, prepare by studying the materials on the [M8 Learning
+  Activities] (https://usflearn.instructure.com/courses/1979796/pages/m8-le
+ arning-activities) page. \n\n  The quiz is composed of 25 multiple-choi
+ ce and true-false questions and is worth 50 points. The quiz is timed 60 m
+ inutes and you will have one attempt. Submit by 11.59 p.m. (ET) on the due
+  date.
+SEQUENCE:0
+SUMMARY:M8 Quiz: Environmental Hazards and Human Health [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=10&year=2025#assignment_18190481
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 8 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h3
+  style="color: #2d3033\;"><i class="icon-quiz" style="background-color: #8
+ a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px\;" aria
+ -hidden="true"><span class="dp-icon-content" style="display: none\;">&nbsp
+ \;</span></i>Environmental Hazards and Human Health</h3>\n<p class="p1">Be
+ fore taking this quiz\, prepare by studying the materials on the <a title=
+ "M8 Learning Activities " href="https://usflearn.instructure.com/courses/1
+ 979796/pages/m8-learning-activities" data-course-type="wikiPages" data-pub
+ lished="false" data-api-endpoint="https://usflearn.instructure.com/api/v1/
+ courses/1979796/pages/m8-learning-activities" data-api-returntype="Page">M
+ 8 Learning Activities</a> page.&nbsp\;</p>\n<div class="bs-alert bs-alert-
+ primary" style="border-color: #feddcd\; border-width: 2px\; background-col
+ or: #ffffff\; color: #333333\;"><i class="icon-speed-grader icon-Solid" st
+ yle="color: #004085\;" aria-hidden="true"><span class="dp-icon-content" st
+ yle="display: none\;">&nbsp\;</span></i> <i><span style="color: #333333\;"
+ >The quiz is </span><span style="color: #333333\;">composed</span><span st
+ yle="color: #333333\;">&nbsp\;of 25 multiple-choice and true-false questio
+ ns and is worth <strong>50 points</strong>. The quiz is timed 60 minutes a
+ nd you will have one attempt. Submit by 11.59 p.m. (ET) on the due date.</
+ span></i></div>\n</div>\n</div><script src="https://instructure-uploads.s3
+ .amazonaws.com/account_130000000086643/attachments/163578714/dp_app.js"></
+ script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190479
+DTSTART;VALUE=DATE;VALUE=DATE:20251027
+CLASS:PUBLIC
+DESCRIPTION:-------------\nModule 9 Quiz\n-------------\n\n Atmospheric Po
+ llution\n----------------------\n\nBefore taking this quiz\, prepare by st
+ udying the materials on the [M9 Learning Activities] (https://usflearn.ins
+ tructure.com/courses/1979796/pages/m9-learning-activities) page. \n\n  T
+ he quiz is composed of 25 multiple-choice and true-false questions and is
+  worth 50 points. The quiz is timed 60 minutes and you will have one attem
+ pt. Submit by 11.59 p.m. (ET) on the due date.
+SEQUENCE:0
+SUMMARY:M9 Quiz: Atmospheric Pollution [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=10&year=2025#assignment_18190479
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 9 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h3
+  style="color: #2d3033\;"><i class="icon-quiz" style="background-color: #8
+ a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px\;" aria
+ -hidden="true"><span class="dp-icon-content" style="display: none\;">&nbsp
+ \;</span></i>Atmospheric Pollution</h3>\n<p class="p1">Before taking this 
+ quiz\, prepare by studying the materials on the <a title="M9 Learning Acti
+ vities" href="https://usflearn.instructure.com/courses/1979796/pages/m9-le
+ arning-activities" data-course-type="wikiPages" data-published="false" dat
+ a-api-endpoint="https://usflearn.instructure.com/api/v1/courses/1979796/pa
+ ges/m9-learning-activities" data-api-returntype="Page">M9 Learning Activit
+ ies</a> page.&nbsp\;</p>\n<div class="bs-alert bs-alert-primary" style="bo
+ rder-color: #feddcd\; border-width: 2px\; background-color: #ffffff\; colo
+ r: #333333\;"><i class="icon-speed-grader icon-Solid" style="color: #00408
+ 5\;" aria-hidden="true"><span class="dp-icon-content" style="display: none
+ \;">&nbsp\;</span></i> <i><span style="color: #333333\;">The quiz is </spa
+ n><span style="color: #333333\;">composed</span><span style="color: #33333
+ 3\;">&nbsp\;of 25 multiple-choice and true-false questions and is worth <s
+ trong>50 points</strong>. The quiz is timed 60 minutes and you will have o
+ ne attempt. Submit by 11.59 p.m. (ET) on the due date.</span></i></div>\n<
+ /div>\n</div><script src="https://instructure-uploads.s3.amazonaws.com/acc
+ ount_130000000086643/attachments/163578714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190457
+DTSTART;VALUE=DATE;VALUE=DATE:20251103
+CLASS:PUBLIC
+DESCRIPTION:---------------------\nRenewable Energy Quiz\n-----------------
+ ----\n\n Renewable Energy\n-----------------\n\nBefore taking this quiz\,
+  prepare by studying the materials on the [M10 Learning Activities] (https
+ ://usflearn.instructure.com/courses/1979796/pages/g427ab00d3bf41346df30ea8
+ efc56d116) page.\n\n  The quiz is composed of 25 multiple-choice and tru
+ e-false questions and is worth 50 points. The quiz is timed 60 minutes and
+  you will have one attempt. Submit by 11.59 p.m. (ET) on the due date.
+SEQUENCE:0
+SUMMARY:Quiz: Renewable Energy [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=11&year=2025#assignment_18190457
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Renewable Energy Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class=
+ "">\n<h3 style="color: #2d3033\;"><i class="icon-quiz" style="background-c
+ olor: #8a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px
+ \;" aria-hidden="true"><span class="dp-icon-content" style="display: none\
+ ;">&nbsp\;</span></i>Renewable Energy</h3>\n<p class="p1">Before taking th
+ is quiz\, prepare by studying the materials on the <a title="M11 Learning 
+ Activities  " href="https://usflearn.instructure.com/courses/1979796/pages
+ /g427ab00d3bf41346df30ea8efc56d116" data-course-type="wikiPages" data-publ
+ ished="false" data-api-endpoint="https://usflearn.instructure.com/api/v1/c
+ ourses/1979796/pages/g427ab00d3bf41346df30ea8efc56d116" data-api-returntyp
+ e="Page">M10 Learning Activities</a> page.</p>\n<div class="bs-alert bs-al
+ ert-primary" style="border-color: #feddcd\; border-width: 2px\; background
+ -color: #ffffff\; color: #333333\;"><i class="icon-speed-grader icon-Solid
+ " style="color: #004085\;" aria-hidden="true"><span class="dp-icon-content
+ " style="display: none\;">&nbsp\;</span></i> <i><span style="color: #33333
+ 3\;">The quiz is </span><span style="color: #333333\;">composed</span><spa
+ n style="color: #333333\;">&nbsp\;of 25 multiple-choice and true-false que
+ stions and is worth <strong>50 points</strong>. The quiz is timed 60 minut
+ es and you will have one attempt. Submit by 11.59 p.m. (ET) on the due dat
+ e.</span></i></div>\n</div>\n</div><script src="https://instructure-upload
+ s.s3.amazonaws.com/account_130000000086643/attachments/163578714/dp_app.js
+ "></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190487
+DTSTART;VALUE=DATE;VALUE=DATE:20251110
+CLASS:PUBLIC
+DESCRIPTION:--------------------\nModule 11 Discussion\n-------------------
+ -\n\n Steps to Lower My Climate Change\n---------------------------------
+ \n\nPrompt\n------\n\nList and discuss five steps you could take to lower 
+ your climate impact. Check the Union of Concerned Scientists Web site for 
+ suggestions.\n\nReply\n-----\n\nReview one of your peer’s responses to t
+ he above question and identify and discuss a policy that can be deployed i
+ n promoting one step your peer has suggested.\n\nDiscussion Guidelines\n--
+ -------------------\n\n* Discussions are collaborative learning experience
+ s.\n\n* You will post one thread of at least 300 words in response to a pr
+ ovided prompt by 11.59 p.m. (ET).\n\n* Then\, post a reply of at least 150
+  words to a classmate's thread by 11.59 p.m. (ET).\n\n* For each thread\, 
+ you must support your assertions with at least 1 scholarly citation in the
+  current APA format. Each reply must incorporate at least 1 scholarly cita
+ tion in APA format. Acceptable sources include books\, journal articles\, 
+ .edu\, .org\, or .gov websites\, the course textbook\, etc. A Wikipedia re
+ ference will not count towards your minimum citation count.\n\n* For help 
+ on how to submit discussion posts\, see [How Do I Reply to a Discussion a
+ s a Student? Links to an external site.] (https://community.canvaslms.com
+ /t5/Student-Guide/How-do-I-reply-to-a-discussion-as-a-student/ta-p/334)\n\
+ n* This discussion is worth 50 points and will be graded according to the
+  Discussion Board Forum Rubric. For help on how to access the rubric\, see
+  [How Do I View the Rubric for My Graded Discussion? Links to an externa
+ l site.] (https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-t
+ he-rubric-for-my-graded-discussion/ta-p/319)
+SEQUENCE:0
+SUMMARY:M11 Discussion: Steps to Lower My Climate Change [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=11&year=2025#assignment_18190487
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="border-color: #2d3b45\; background-colo
+ r: #8a173c\; color: #ffffff\;">\n<h2 class="" style="background-color: #8a
+ 173c\; color: #ffffff\; border-color: #daebeb\; border-top-width: 0px\;">M
+ odule 11 Discussion</h2>\n</div>\n<div id="kl_activities2" class="">\n<h3 
+ style="color: #2d3033\;"><i class="icon-discussion icon-Solid" style="back
+ ground-color: #8a173c\; color: #ffffff\; border-color: #feddcd\; border-wi
+ dth: 2px\;" aria-hidden="true"><span class="dp-icon-content" style="displa
+ y: none\;">&nbsp\;</span></i>Steps to Lower My Climate Change</h3>\n<h4 cl
+ ass="p1"><span style="font-size: 12pt\;"><span style="color: #333333\;">Pr
+ ompt</span></span></h4>\n<p class="p1">List and discuss five steps you cou
+ ld take to lower your climate impact. Check the Union of Concerned Scienti
+ sts Web site for suggestions.</p>\n<h4 class="p1"><span style="font-size: 
+ 12pt\;"><span style="color: #333333\;">Reply</span></span></h4>\n<p class=
+ "p1">Review one of your peer’s responses to the above question and ident
+ ify and discuss a policy that can be deployed in promoting one step your p
+ eer has suggested.</p>\n<h4 class="p1"><span style="font-size: 12pt\;"><sp
+ an style="color: #333333\;">Discussion Guidelines</span></span></h4>\n<ul>
+ \n<li class="p1">Discussions are collaborative learning experiences.</li>\
+ n<li class="p1">You will post one thread of at least 300 words in response
+  to a provided prompt by <strong>11.59 p.m. (ET)</strong>.</li>\n<li class
+ ="p1">Then\, post a reply of at least 150 words to a classmate's thread by
+  <strong>11.59 p.m. (ET)</strong>.</li>\n<li class="p1">For each thread\, 
+ you must support your assertions with at least 1 scholarly citation in the
+  current APA format. Each reply must incorporate at least 1 scholarly cita
+ tion in APA format. Acceptable sources include books\, journal articles\, 
+ .edu\, .org\, or .gov websites\, the course textbook\, etc. A Wikipedia re
+ ference will not count towards your minimum citation count.</li>\n<li>For 
+ help on how to submit discussion posts\, see<span>&nbsp\;</span><a class="
+ inline_disabled external" href="https://community.canvaslms.com/t5/Student
+ -Guide/How-do-I-reply-to-a-discussion-as-a-student/ta-p/334" target="_blan
+ k"><span>How Do I Reply to a Discussion as a Student?&nbsp\;</span><span c
+ lass="external_link_icon" role="presentation"><span class="screenreader-on
+ ly">Links to an external site.</span></span></a></li>\n<li>This discussion
+  is worth<span>&nbsp\;</span><strong>50 points </strong>and will be graded
+  according to the Discussion Board Forum Rubric. For help on how to access
+  the rubric\, see<span>&nbsp\;</span><a class="instructure_file_link inlin
+ e_disabled external" href="https://community.canvaslms.com/t5/Student-Guid
+ e/How-do-I-view-the-rubric-for-my-graded-discussion/ta-p/319" target="_bla
+ nk"><span>How Do I View the Rubric for My Graded Discussion?&nbsp\;</span>
+ <span class="external_link_icon" role="presentation"><span class="screenre
+ ader-only">Links to an external site.</span></span></a></li>\n</ul>\n</div
+ >\n</div><script src="https://instructure-uploads.s3.amazonaws.com/account
+ _130000000086643/attachments/163578714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190465
+DTSTART;VALUE=DATE;VALUE=DATE:20251110
+CLASS:PUBLIC
+DESCRIPTION:--------------\nModule 11 Quiz\n--------------\n\n Global Clim
+ ate Change\n----------------------\n\nBefore taking this quiz\, prepare by
+  studying the materials on the [Learning Activities] (https://usflearn.ins
+ tructure.com/courses/1979796/pages/m11-learning-activities-2) page. \n\n
+   The quiz is composed of 25 multiple-choice and true-false questions an
+ d is worth 50 points. The quiz is timed 60 minutes and you will have one a
+ ttempt. Submit by 11.59 p.m. (ET) on the due date.
+SEQUENCE:0
+SUMMARY:M11 Quiz: Global Climate Change [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=11&year=2025#assignment_18190465
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 11 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h
+ 3 style="color: #2d3033\;"><i class="icon-quiz" style="background-color: #
+ 8a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px\;" ari
+ a-hidden="true"><span class="dp-icon-content" style="display: none\;">&nbs
+ p\;</span></i>Global Climate Change</h3>\n<p class="p1">Before taking this
+  quiz\, prepare by studying the materials on the <a title="M10 Learning Ac
+ tivities " href="https://usflearn.instructure.com/courses/1979796/pages/m1
+ 1-learning-activities-2" data-course-type="wikiPages" data-published="fals
+ e" data-api-endpoint="https://usflearn.instructure.com/api/v1/courses/1979
+ 796/pages/m11-learning-activities-2" data-api-returntype="Page">Learning A
+ ctivities</a> page.&nbsp\;</p>\n<div class="bs-alert bs-alert-primary" sty
+ le="border-color: #feddcd\; border-width: 2px\; background-color: #ffffff\
+ ; color: #333333\;"><i class="icon-speed-grader icon-Solid" style="color: 
+ #004085\;" aria-hidden="true"><span class="dp-icon-content" style="display
+ : none\;">&nbsp\;</span></i> <i><span style="color: #333333\;">The quiz is
+  </span><span style="color: #333333\;">composed</span><span style="color: 
+ #333333\;">&nbsp\;of 25 multiple-choice and true-false questions and is wo
+ rth <strong>50 points</strong>. The quiz is timed 60 minutes and you will 
+ have one attempt. Submit by 11.59 p.m. (ET) on the due date.</span></i></d
+ iv>\n</div>\n</div><script src="https://instructure-uploads.s3.amazonaws.c
+ om/account_130000000086643/attachments/163578714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190459
+DTSTART;VALUE=DATE;VALUE=DATE:20251117
+CLASS:PUBLIC
+DESCRIPTION:--------------\nModule 12 Quiz\n--------------\n\n The Product
+ ion and Distribution of Food\n----------------------------------------\n\n
+ Before taking this quiz\, prepare by studying the materials on the [M12 Le
+ arning Activities] (https://usflearn.instructure.com/courses/1979796/pages
+ /m12-learning-activities) page. \n\n  The quiz is composed of 25 multip
+ le-choice and true-false questions and is worth 50 points. The quiz is tim
+ ed 60 minutes and you will have one attempt. Submit by 11.59 p.m. (ET) on 
+ the due date.
+SEQUENCE:0
+SUMMARY:M12 Quiz: The Production and Distribution of Food [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=11&year=2025#assignment_18190459
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 12 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h
+ 3 style="color: #2d3033\;"><i class="icon-quiz" style="background-color: #
+ 8a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px\;" ari
+ a-hidden="true"><span class="dp-icon-content" style="display: none\;">&nbs
+ p\;</span></i>The Production and Distribution of Food</h3>\n<p class="p1">
+ Before taking this quiz\, prepare by studying the materials on the <a titl
+ e="M12 Learning Activities   " href="https://usflearn.instructure.com/cour
+ ses/1979796/pages/m12-learning-activities" data-course-type="wikiPages" da
+ ta-published="false" data-api-endpoint="https://usflearn.instructure.com/a
+ pi/v1/courses/1979796/pages/m12-learning-activities" data-api-returntype="
+ Page">M12 Learning Activities</a> page.&nbsp\;</p>\n<div class="bs-alert b
+ s-alert-primary" style="border-color: #feddcd\; border-width: 2px\; backgr
+ ound-color: #ffffff\; color: #333333\;"><i class="icon-speed-grader icon-S
+ olid" style="color: #004085\;" aria-hidden="true"><span class="dp-icon-con
+ tent" style="display: none\;">&nbsp\;</span></i> <i><span style="color: #3
+ 33333\;">The quiz is </span><span style="color: #333333\;">composed</span>
+ <span style="color: #333333\;">&nbsp\;of 25 multiple-choice and true-false
+  questions and is worth <strong>50 points</strong>. The quiz is timed 60 m
+ inutes and you will have one attempt. Submit by 11.59 p.m. (ET) on the due
+  date.</span></i></div>\n</div>\n</div><script src="https://instructure-up
+ loads.s3.amazonaws.com/account_130000000086643/attachments/163578714/dp_ap
+ p.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250821T195400Z
+UID:event-assignment-18595539
+DTSTART;VALUE=DATE;VALUE=DATE:20251121
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Assignment 4: Internship Experience Reflection [IDS3947.100F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1992486&month=11&year=2025#assignment_18595539
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190491
+DTSTART;VALUE=DATE;VALUE=DATE:20251124
+CLASS:PUBLIC
+DESCRIPTION:--------------------------------------\nModule 13 Critical Thin
+ king Assignment\n--------------------------------------\n\n The Role of t
+ he CDC\, WHO\, FDA and EPA\n--------------------------------------\n\nCrit
+ ical Thinking Assignments (CTAs) are short essay assignments designed to b
+ uild on your knowledge of the text. You will be expected to thoughtfully a
+ nswer the questions presented using class readings and other resources in 
+ Pearson Mastering to support your answers. Read and respond to the essay q
+ uestion below. Do not forget to review the accompanying instructions.\n\nE
+ ssay Question\n--------------\n\nDescribe the public health roles and two 
+ critiques of each of the following agencies the CDC\, the WHO\, the FDA an
+ d the EPA.\n\nCTA Instructions\n----------------\n\n* Length: The CTA shou
+ ld be between 500 to 600 words excluding references.\n\n* Format: Should b
+ e written in the APA format.\n\n* References: You should have at least thr
+ ee peer-reviewed journal articles or scholarly books. Sources may include 
+ both general background sources and specialized sources. All websites util
+ ized are cited with access dates and should come from authoritative sites 
+ with reliable and verifiable URLs.\n\n* Writing quality: The arguments sho
+ uld be well-grounded/written and clearly articulated using Standard Englis
+ h. Correct grammar\, punctuation\, and spelling. No colloquial English.\n\
+ n* Note: Your assignment will be checked for originality via the [Turnitin
+  plagiarism tool.] (https://usflearn.instructure.com/courses/1979796/pages
+ /getting-started-with-technology)\n\nRubric and Submission Guidelines\n---
+ -----------------------------\n\n* This assignment is worth 50 points an
+ d will be graded according to the Critical Thinking Assignment Rubric.\n\n
+ * Submit by 11.59 p.m. (ET) on the due date.\n\n* Upload your assignment a
+ s a Microsoft Word document or PDF. For additional help\, see [How Do I U
+ pload a File as an Assignment Submission in Canvas?Links to an external si
+ te.] (https://community.canvaslms.com/t5/Student-Guide/How-do-I-upload-a-f
+ ile-as-an-assignment-submission-in-Canvas/ta-p/274)
+SEQUENCE:0
+SUMMARY:M13 Critical Thinking Assignment: The Role of the CDC\, WHO\, FDA a
+ nd EPA [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=11&year=2025#assignment_18190491
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\;">\n<h2 class="" style="border-top-width: 0px\; background-color: #8a
+ 173c\; color: #ffffff\; border-color: #8a173c\;">Module 13 Critical Thinki
+ ng Assignment</h2>\n</div>\n<div id="kl_custom_block_1" class="">\n<h3 sty
+ le="color: #2d3033\; margin-bottom: 20px\;">\n<i class="icon-assignment" s
+ tyle="background-color: #8a173c\; color: #ffffff\; border-color: #feddcd\;
+  border-width: 2px\;" aria-hidden="true"><span class="dp-icon-content" sty
+ le="display: none\;">&nbsp\;</span></i>The Role of the CDC\, WHO\, FDA and
+  EPA</h3>\n<p class="p1">Critical Thinking Assignments (CTAs) are short es
+ say assignments designed to build on your knowledge of the text. You will 
+ be expected to thoughtfully answer the questions presented using class rea
+ dings and other resources in Pearson Mastering to support your answers. Re
+ ad and respond to the essay question below. Do not forget to review the ac
+ companying instructions.</p>\n<h4 class="p1"><span class="s1" style="color
+ : #333333\; font-size: 12pt\;">Essay Question</span></h4>\n<p class="p1"><
+ strong>Describe the public health roles and two critiques of each of the f
+ ollowing agencies the CDC\, the WHO\, the FDA and the EPA.</strong></p>\n<
+ h4 class="p1"><span class="s1" style="color: #333333\; font-size: 12pt\;">
+ CTA Instructions</span></h4>\n<ul>\n<li class="p1">Length: The CTA should 
+ be between 500 to 600 words excluding references.</li>\n<li class="p1">For
+ mat: Should be written in the APA format.</li>\n<li class="p1">References:
+  You should have at least three peer-reviewed journal articles or scholarl
+ y books. Sources may include both general background sources and specializ
+ ed sources. All websites utilized are cited with access dates and should c
+ ome from authoritative sites with reliable and verifiable URLs.</li>\n<li 
+ class="p1">Writing quality: The arguments should be well-grounded/written 
+ and clearly articulated using Standard English. Correct grammar\, punctuat
+ ion\, and spelling. No colloquial English.</li>\n<li class="p1"><strong>No
+ te: Your assignment will be checked for originality via the <a title="Gett
+ ing Started with Technology" href="https://usflearn.instructure.com/course
+ s/1979796/pages/getting-started-with-technology" data-course-type="wikiPag
+ es" data-published="true" data-api-endpoint="https://usflearn.instructure.
+ com/api/v1/courses/1979796/pages/getting-started-with-technology" data-api
+ -returntype="Page">Turnitin plagiarism tool.</a></strong></li>\n</ul>\n<h4
+ ><span style="font-size: 12pt\;">Rubric and Submission Guidelines</span></
+ h4>\n<ul>\n<li>This assignment is worth<span>&nbsp\;</span><strong>50 poin
+ ts</strong><span>&nbsp\;</span>and will be graded according to the Critica
+ l Thinking Assignment Rubric.</li>\n<li>Submit by 11.59 p.m. (ET) on the d
+ ue date.</li>\n<li>Upload your assignment as a Microsoft Word document or 
+ PDF. For additional help\, see<span>&nbsp\;</span><a class="inline_disable
+ d external" href="https://community.canvaslms.com/t5/Student-Guide/How-do-
+ I-upload-a-file-as-an-assignment-submission-in-Canvas/ta-p/274" target="_b
+ lank"><span>How Do I Upload a File as an Assignment Submission in Canvas?<
+ /span><span class="external_link_icon" role="presentation"><span class="sc
+ reenreader-only">Links to an external site.</span></span></a>\n</li>\n</ul
+ >\n</div>\n</div><script src="https://instructure-uploads.s3.amazonaws.com
+ /account_130000000086643/attachments/163578714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190467
+DTSTART;VALUE=DATE;VALUE=DATE:20251124
+CLASS:PUBLIC
+DESCRIPTION:--------------\nModule 13 Quiz\n--------------\n\n Water Pollu
+ tion and Its Prevention\n-----------------------------------\n\nBefore tak
+ ing this quiz\, prepare by studying the materials on the [M13 Learning Act
+ ivities] (https://usflearn.instructure.com/courses/1979796/pages/m13-learn
+ ing-activities) page. \n\n  The quiz is composed of 25 multiple-choice 
+ and true-false questions and is worth 50 points. The quiz is timed 60 minu
+ tes and you will have one attempt. Submit by 11.59 p.m. (ET) on the due da
+ te.
+SEQUENCE:0
+SUMMARY:M13 Quiz: Water Pollution and Its Prevention [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=11&year=2025#assignment_18190467
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 13 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h
+ 3 style="color: #2d3033\;"><i class="icon-quiz" style="background-color: #
+ 8a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px\;" ari
+ a-hidden="true"><span class="dp-icon-content" style="display: none\;">&nbs
+ p\;</span></i>Water Pollution and Its Prevention</h3>\n<p class="p1">Befor
+ e taking this quiz\, prepare by studying the materials on the <a title="M1
+ 3 Learning Activities   " href="https://usflearn.instructure.com/courses/1
+ 979796/pages/m13-learning-activities" data-course-type="wikiPages" data-pu
+ blished="false" data-api-endpoint="https://usflearn.instructure.com/api/v1
+ /courses/1979796/pages/m13-learning-activities" data-api-returntype="Page"
+ >M13 Learning Activities</a> page.&nbsp\;</p>\n<div class="bs-alert bs-ale
+ rt-primary" style="border-color: #feddcd\; border-width: 2px\; background-
+ color: #ffffff\; color: #333333\;"><i class="icon-speed-grader icon-Solid"
+  style="color: #004085\;" aria-hidden="true"><span class="dp-icon-content"
+  style="display: none\;">&nbsp\;</span></i> <i><span style="color: #333333
+ \;">The quiz is </span><span style="color: #333333\;">composed</span><span
+  style="color: #333333\;">&nbsp\;of 25 multiple-choice and true-false ques
+ tions and is worth <strong>50 points</strong>. The quiz is timed 60 minute
+ s and you will have one attempt. Submit by 11.59 p.m. (ET) on the due date
+ .</span></i></div>\n</div>\n</div><script src="https://instructure-uploads
+ .s3.amazonaws.com/account_130000000086643/attachments/163578714/dp_app.js"
+ ></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190471
+DTSTART;VALUE=DATE;VALUE=DATE:20251201
+CLASS:PUBLIC
+DESCRIPTION:--------------\nModule 14 Quiz\n--------------\n\n Sustainable
+  Communities and Lifestyles\n---------------------------------------\n\nBe
+ fore taking this quiz\, prepare by studying the materials on the [M14 Lear
+ ning Activities] (https://usflearn.instructure.com/courses/1979796/pages/m
+ 14-learning-activities) page. \n\n  The quiz is composed of 25 multiple
+ -choice and true-false questions and is worth 50 points. The quiz is timed
+  60 minutes and you will have one attempt. Submit by 11.59 p.m. (ET) on th
+ e due date.
+SEQUENCE:0
+SUMMARY:M14 Quiz: Sustainable Communities and Lifestyles [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=12&year=2025#assignment_18190471
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><div id="kl_wrapper_3" class="kl_flat_sections kl_wrapper">\n<
+ div id="kl_banner" class="" style="background-color: #8a173c\; color: #fff
+ fff\; border-left-color: #8a173c\;">\n<h2 class="" style="border-top-width
+ : 0px\; background-color: #8a173c\; color: #ffffff\; border-color: #8a173c
+ \;">Module 14 Quiz</h2>\n</div>\n<div id="kl_custom_block_0" class="">\n<h
+ 3 style="color: #2d3033\;"><i class="icon-quiz" style="background-color: #
+ 8a173c\; color: #ffffff\; border-color: #feddcd\; border-width: 2px\;" ari
+ a-hidden="true"><span class="dp-icon-content" style="display: none\;">&nbs
+ p\;</span></i>Sustainable Communities and Lifestyles</h3>\n<p class="p1">B
+ efore taking this quiz\, prepare by studying the materials on the <a title
+ ="M14 Learning Activities    " href="https://usflearn.instructure.com/cour
+ ses/1979796/pages/m14-learning-activities" data-course-type="wikiPages" da
+ ta-published="false" data-api-endpoint="https://usflearn.instructure.com/a
+ pi/v1/courses/1979796/pages/m14-learning-activities" data-api-returntype="
+ Page">M14 Learning Activities</a> page.&nbsp\;</p>\n<div class="bs-alert b
+ s-alert-primary" style="border-color: #feddcd\; border-width: 2px\; backgr
+ ound-color: #ffffff\; color: #333333\;"><i class="icon-speed-grader icon-S
+ olid" style="color: #004085\;" aria-hidden="true"><span class="dp-icon-con
+ tent" style="display: none\;">&nbsp\;</span></i> <i><span style="color: #3
+ 33333\;">The quiz is </span><span style="color: #333333\;">composed</span>
+ <span style="color: #333333\;">&nbsp\;of 25 multiple-choice and true-false
+  questions and is worth <strong>50 points</strong>. The quiz is timed 60 m
+ inutes and you will have one attempt. Submit by 11.59 p.m. (ET) on the due
+  date.</span></i></div>\n</div>\n</div><script src="https://instructure-up
+ loads.s3.amazonaws.com/account_130000000086643/attachments/163578714/dp_ap
+ p.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18194983
+DTSTART;VALUE=DATE;VALUE=DATE:20251201
+CLASS:PUBLIC
+DESCRIPTION:Upload a screenshot showing you have completed the evaluations\
+ n\nNote that evaluations are voluntary\, and you are not required to compl
+ ete them. They will not affect your grade in any way.  
+SEQUENCE:0
+SUMMARY:Course Evaluations [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=12&year=2025#assignment_18194983
+X-ALT-DESC;FMTTYPE=text/html:<link rel="stylesheet" href="https://instructu
+ re-uploads.s3.amazonaws.com/account_130000000086643/attachments/163578716/
+ dp_app.css"><p><span>Upload a screenshot showing you have completed the ev
+ aluations</span></p>\n<p><span style="color: #e03e2d\;">Note that evaluati
+ ons are voluntary\, and you are not required to complete them. They will n
+ ot affect your grade in any way.&nbsp\;&nbsp\;</span></p><script src="http
+ s://instructure-uploads.s3.amazonaws.com/account_130000000086643/attachmen
+ ts/163578714/dp_app.js"></script>
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250821T195400Z
+UID:event-assignment-18595545
+DTSTART;VALUE=DATE;VALUE=DATE:20251205
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Assignment 5: Career Readiness Assessment Post-Experience [IDS3947.
+ 100F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1992486&month=12&year=2025#assignment_18595545
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250821T203500Z
+UID:event-assignment-18596339
+DTSTART;VALUE=DATE;VALUE=DATE:20251205
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Assignment 6: Time Log [IDS3947.100F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1992486&month=12&year=2025#assignment_18596339
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20250810T172200Z
+UID:event-assignment-18190463
+DTSTART;VALUE=DATE;VALUE=DATE:20251208
+CLASS:PUBLIC
+SEQUENCE:0
+SUMMARY:Comprehensive Final Exam [EVR2001.004F25]
+URL;VALUE=URI:https://usflearn.instructure.com/calendar?include_contexts=co
+ urse_1979796&month=12&year=2025#assignment_18190463
+END:VEVENT
+END:VCALENDAR
