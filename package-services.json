@@ -1,0 +1,17 @@
+{
+  "name": "db-watcher-service",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Lambda container that syncs Canvas events from MongoDB into GitHub Project",
+  "main": "services/db_watcher.js",
+  "scripts": {
+    "start": "node services/db_watcher.js"
+  },
+  "dependencies": {
+    "mongodb": "^6.8.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
