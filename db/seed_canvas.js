@@ -5,7 +5,7 @@
 import { MongoClient } from "mongodb";
 import fs from "fs";
 
-const MONGO_URI = process.env.MONGO_URI;
+const MONGO_URI = process.env.MONGO_URI; 
 const DB_NAME = "usf_fall_2025";
 const FILE_PATH = "./reports/canvas_events.json";
 
