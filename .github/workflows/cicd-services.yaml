@@ -108,9 +108,17 @@ jobs:
         working-directory: infra-terraform
         run: |
           set +e
-          terraform plan -var="lambda_image_uri=${{ env.IMAGE_URI }}" -out=tfplan
+          # Fail fast on lock issues, show plan output
+          terraform plan \
+            -lock-timeout=30s \
+            -var="lambda_image_uri=${{ env.IMAGE_URI }}" \
+            -out=tfplan
+
           exitcode=$?
           set -e
+
+          # Show the human-readable plan for debugging
+          terraform show -no-color tfplan || true
 
           if [ $exitcode -eq 0 ]; then
             echo "No changes."
@@ -122,6 +130,8 @@ jobs:
             echo "Terraform plan failed."
             exit $exitcode
           fi
+
+
 
   apply:
     runs-on: ubuntu-latest
