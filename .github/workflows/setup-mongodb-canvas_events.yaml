@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - "db/**"
+      - "db/migrations/**"
       - "!db/**/*.md"
   workflow_dispatch:
 

@@ -1,4 +1,4 @@
-name: Seed Canvas Events
+name: Seed Canvas Events into MongoDB
 
 on:
   push:
@@ -20,12 +20,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: "npm"
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --no-package-lock
 
-      - name: Seed Canvas events into MongoDB
+      - name: Seed Canvas Events
         env:
           MONGO_URI: ${{ secrets.MONGO_URI }}
-        run: npm run seed:canvas
+        run: node scripts/seed-canvas-events.js
