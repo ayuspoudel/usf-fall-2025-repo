@@ -22,4 +22,5 @@ resource "aws_lambda_function" "db_watcher" {
       GH_OPTION_QUIZ        = var.gh_option_quiz
     }
   }
-}
+} 
+  
