@@ -1,0 +1,31 @@
+name: Run MongoDB Migrations
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'db/**'
+      - '!db/**/*.md'   # ignore any Markdown files in db folder
+  workflow_dispatch:   # allow manual trigger too
+
+jobs:
+  migrate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install mongodb
+
+      - name: Run migrations
+        env:
+          MONGO_URI: ${{ secrets.MONGO_URI }}
+        run: node db/index.js
