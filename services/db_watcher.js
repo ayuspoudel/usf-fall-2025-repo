@@ -1,27 +1,24 @@
 // services/db_watcher.js
 // Ayush Poudel | Aug 25, 2025
-// listens for new canvas_events, creates GitHub issue + project item, writes back metadata
+// Syncs unsynced canvas_events → GitHub issues + project items, then updates DB
 
 import { MongoClient } from "mongodb";
 import fetch from "node-fetch";
 
-// env vars
-const MONGO_URI       = process.env.MONGO_URI;
-const DB_NAME         = "usf_fall_2025";
-const COL_NAME        = "canvas_events";
+const MONGO_URI     = process.env.MONGO_URI;
+const DB_NAME       = "usf_fall_2025";
+const COL_NAME      = "canvas_events";
 
-const GH_TOKEN        = process.env.TOKEN_GITHUB;
-const GH_PROJECT_ID   = process.env.GH_PROJECT_ID;
-const GH_REPO_ID      = process.env.GH_REPO_ID;
+const GH_TOKEN      = process.env.TOKEN_GITHUB;
+const GH_PROJECT_ID = process.env.GH_PROJECT_ID;
+const GH_REPO_ID    = process.env.GH_REPO_ID;
 
-// field ids
 const FIELD_IDS = {
   dueDate: process.env.GH_FIELD_DUE_DATE,
   course:  process.env.GH_FIELD_COURSE,
   type:    process.env.GH_FIELD_TYPE,
 };
 
-// option ids
 const TYPE_OPTIONS = {
   Quiz:       process.env.GH_OPTION_QUIZ,
   Assignment: process.env.GH_OPTION_ASSIGNMENT,
@@ -53,7 +50,6 @@ async function handleNewEvent(col, event) {
     return;
   }
 
-  // create issue
   const issueRes = await gql(
     `
     mutation($repo:ID!, $title:String!, $body:String!) {
@@ -69,7 +65,6 @@ async function handleNewEvent(col, event) {
   );
   const issue = issueRes.createIssue.issue;
 
-  // add to project
   const itemRes = await gql(
     `
     mutation($project:ID!, $content:ID!) {
@@ -81,7 +76,6 @@ async function handleNewEvent(col, event) {
   );
   const itemId = itemRes.addProjectV2ItemById.item.id;
 
-  // set due date
   if (FIELD_IDS.dueDate) {
     await gql(
       `
@@ -94,7 +88,6 @@ async function handleNewEvent(col, event) {
     );
   }
 
-  // set course
   if (FIELD_IDS.course) {
     await gql(
       `
@@ -107,7 +100,6 @@ async function handleNewEvent(col, event) {
     );
   }
 
-  // set type
   const typeId = getTypeOptionId(event.type);
   if (FIELD_IDS.type && typeId) {
     await gql(
@@ -121,7 +113,6 @@ async function handleNewEvent(col, event) {
     );
   }
 
-  // write back issue metadata
   await col.updateOne(
     { _id: event._id },
     { $set: { github_issue_id: issue.id, github_issue_number: issue.number, github_issue_url: issue.url } }
@@ -130,17 +121,28 @@ async function handleNewEvent(col, event) {
   console.log(`synced: ${event.title} → #${issue.number}`);
 }
 
-// event handler for lambda
-export async function handler() {
+// Lambda entrypoint
+export async function handler(event, context) {
   const client = new MongoClient(MONGO_URI, { tls: MONGO_URI.startsWith("mongodb+srv://") });
   await client.connect();
-  const db = client.db(DB_NAME);
-  const col = db.collection(COL_NAME);
+  const col = client.db(DB_NAME).collection(COL_NAME);
 
-  console.log("watching canvas_events inserts...");
-  const changeStream = col.watch([{ $match: { operationType: "insert" } }]);
+  // pick unsynced events
+  const unsynced = await col.find({ github_issue_id: { $exists: false } }).toArray();
 
-  for await (const change of changeStream) {
-    await handleNewEvent(col, change.fullDocument);
+  console.log(`found ${unsynced.length} unsynced events`);
+  for (const ev of unsynced) {
+    try {
+      await handleNewEvent(col, ev);
+    } catch (err) {
+      console.error("failed to sync:", ev.title, err.message);
+    }
   }
+
+  await client.close();
+
+  return {
+    statusCode: 200,
+    body: JSON.stringify({ synced: unsynced.length }),
+  };
 }
