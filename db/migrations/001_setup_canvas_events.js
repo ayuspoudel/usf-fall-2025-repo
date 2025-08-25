@@ -26,3 +26,4 @@ db.createCollection("canvas_events", {
 db.canvas_events.createIndex({ uid: 1 }, { unique: true });
 db.canvas_events.createIndex({ due_date: 1 });
 db.canvas_events.createIndex({ course: 1 });
+    
