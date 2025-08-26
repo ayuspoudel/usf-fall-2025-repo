@@ -2,8 +2,8 @@
 // Ayush Poudel | Aug 25, 2025
 // Syncs unsynced canvas_events → GitHub issues + project items, then updates DB
 
-import { MongoClient } from "mongodb";
-import fetch from "node-fetch";
+const { MongoClient } = require("mongodb");
+const fetch = require("node-fetch");
 
 const MONGO_URI     = process.env.MONGO_URI;
 const DB_NAME       = "usf_fall_2025";
@@ -122,12 +122,11 @@ async function handleNewEvent(col, event) {
 }
 
 // Lambda entrypoint
-export async function handler(event, context) {
+exports.handler = async function(event, context) {
   const client = new MongoClient(MONGO_URI, { tls: MONGO_URI.startsWith("mongodb+srv://") });
   await client.connect();
   const col = client.db(DB_NAME).collection(COL_NAME);
 
-  // pick unsynced events
   const unsynced = await col.find({ github_issue_id: { $exists: false } }).toArray();
 
   console.log(`found ${unsynced.length} unsynced events`);
@@ -145,4 +144,4 @@ export async function handler(event, context) {
     statusCode: 200,
     body: JSON.stringify({ synced: unsynced.length }),
   };
-}
+};
