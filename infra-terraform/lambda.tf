@@ -3,7 +3,7 @@ resource "aws_lambda_function" "db_watcher" {
   function_name = "db-watcher"
   role          = aws_iam_role.lambda_exec.arn
   package_type  = "Image"
-  image_uri     = var.lambda_image_uri
+  image_uri     = var.lambda_watcher_image_uri
   timeout       = 900
       
   environment { 

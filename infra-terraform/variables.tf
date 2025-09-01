@@ -12,6 +12,18 @@ variable "gh_option_exam" {}
 variable "gh_option_project" {}
 variable "gh_option_quiz" {}
 
-variable "lambda_image_uri" {
-  description = "ECR image URI for Lambda"
+variable "lambda_fetcher_image_uri" {
+  description = "ECR image URI for canvas-fetcher Lambda"
+  type        = string
 }
+
+variable "lambda_upserter_image_uri" {
+  description = "ECR image URI for canvas-upserter Lambda"
+  type        = string
+}
+
+variable "lambda_watcher_image_uri" {
+  description = "ECR image URI for db-watcher Lambda"
+  type        = string
+}
+
