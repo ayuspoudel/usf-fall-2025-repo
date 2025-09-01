@@ -1,3 +1,7 @@
 terraform/.terraform/
 terraform/terraform.tfstate*
 terraform/dist/
+*.terraform
+.terraform.lock.hcl
+*.tfvars
+*.tfstate

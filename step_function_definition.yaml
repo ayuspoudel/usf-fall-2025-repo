@@ -1,0 +1,39 @@
+Comment: "Canvas ICS → Mongo → GitHub Sync"
+StartAt: FetchCanvasICS
+States:
+  FetchCanvasICS:
+    Type: Task
+    Resource: ${canvas_fetcher_arn}
+    ResultPath: $.fetch
+    Next: CheckChanged
+
+  CheckChanged:
+    Type: Choice
+    Choices:
+      - Variable: $.fetch.changed
+        BooleanEquals: true
+        Next: UpsertCanvasEvents
+    Default: WaitLong
+
+  UpsertCanvasEvents:
+    Type: Task
+    Resource: ${canvas_upserter_arn}
+    InputPath: $.fetch
+    ResultPath: $.upsert
+    Next: SyncGitHub
+
+  SyncGitHub:
+    Type: Task
+    Resource: ${db_watcher_arn}
+    ResultPath: $.sync
+    Next: WaitShort
+
+  WaitShort:
+    Type: Wait
+    Seconds: 300
+    Next: FetchCanvasICS
+
+  WaitLong:
+    Type: Wait
+    Seconds: 1800
+    Next: FetchCanvasICS
