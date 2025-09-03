@@ -248,3 +248,53 @@ jobs:
             -var="gh_option_project=${{ secrets.GH_OPTION_PROJECT }}" \
             -var="gh_option_quiz=${{ secrets.GH_OPTION_QUIZ }}" \
             -var="canvas_feed_url=${{ secrets.CANVAS_FEED_URL }}"
+
+  destroy:
+    runs-on: ubuntu-latest
+    needs: plan
+    environment: prod
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure AWS credentials (OIDC)
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
+          aws-region: us-east-1
+      - name: Install Terraform
+        uses: hashicorp/setup-terraform@v3
+        with:
+          terraform_version: 1.9.5
+      - uses: actions/download-artifact@v4
+        with: { name: fetcher_image_uri }
+      - uses: actions/download-artifact@v4
+        with: { name: upserter_image_uri }
+      - uses: actions/download-artifact@v4
+        with: { name: watcher_image_uri }
+      - name: Export IMAGE URIs
+        run: |
+          echo "FETCHER_IMAGE_URI=$(cat fetcher_image_uri)" >> $GITHUB_ENV
+          echo "UPSERTER_IMAGE_URI=$(cat upserter_image_uri)" >> $GITHUB_ENV
+          echo "WATCHER_IMAGE_URI=$(cat watcher_image_uri)" >> $GITHUB_ENV
+      - name: Terraform Init
+        working-directory: infra-terraform
+        run: terraform init
+      - name: Terraform Destroy
+        working-directory: infra-terraform
+        run: |
+          terraform destroy -auto-approve \
+            -var="lambda_fetcher_image_uri=${{ env.FETCHER_IMAGE_URI }}" \
+            -var="lambda_upserter_image_uri=${{ env.UPSERTER_IMAGE_URI }}" \
+            -var="lambda_watcher_image_uri=${{ env.WATCHER_IMAGE_URI }}" \
+            -var="mongo_uri=${{ secrets.MONGO_URI }}" \
+            -var="token_github=${{ secrets.TOKEN_GITHUB }}" \
+            -var="gh_project_id=${{ secrets.GH_PROJECT_ID }}" \
+            -var="gh_repo_owner=ayuspoudel" \
+            -var="gh_repo_name=usf-fall-2025-repo" \
+            -var="gh_field_course=${{ secrets.GH_FIELD_COURSE }}" \
+            -var="gh_field_due_date=${{ secrets.GH_FIELD_DUE_DATE }}" \
+            -var="gh_field_type=${{ secrets.GH_FIELD_TYPE }}" \
+            -var="gh_option_assignment=${{ secrets.GH_OPTION_ASSIGNMENT }}" \
+            -var="gh_option_exam=${{ secrets.GH_OPTION_EXAM }}" \
+            -var="gh_option_project=${{ secrets.GH_OPTION_PROJECT }}" \
+            -var="gh_option_quiz=${{ secrets.GH_OPTION_QUIZ }}" \
+            -var="canvas_feed_url=${{ secrets.CANVAS_FEED_URL }}"
